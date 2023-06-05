@@ -1,5 +1,1 @@
-#import <React/RCTBridgeModule.h>
-
-@interface RNSensitiveInfo : NSObject <RCTBridgeModule>
-@end
-
+../../../../../node_modules/react-native-sensitive-info/ios/RNSensitiveInfo/RNSensitiveInfo.h

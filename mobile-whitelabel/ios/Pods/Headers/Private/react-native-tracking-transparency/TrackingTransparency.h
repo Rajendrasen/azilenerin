@@ -1,5 +1,1 @@
-#import <React/RCTBridgeModule.h>
-
-@interface TrackingTransparency : NSObject <RCTBridgeModule>
-
-@end
+../../../../../node_modules/react-native-tracking-transparency/ios/TrackingTransparency.h

@@ -1,11 +1,1 @@
-
-#if __has_include("RCTBridgeModule.h")
-#import "RCTBridgeModule.h"
-#else
-#import <React/RCTBridgeModule.h>
-#endif
-
-@interface RNCToolbarAndroid : NSObject <RCTBridgeModule>
-
-@end
-  
+../../../../../node_modules/@react-native-community/toolbar-android/ios/RNCToolbarAndroid.h

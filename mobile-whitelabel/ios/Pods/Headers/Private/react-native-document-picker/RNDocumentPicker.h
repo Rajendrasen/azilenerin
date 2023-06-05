@@ -1,7 +1,1 @@
-#import <React/RCTBridgeModule.h>
-
-@import UIKit;
-
-@interface RNDocumentPicker : NSObject <RCTBridgeModule>
-
-@end
+../../../../../node_modules/react-native-document-picker/ios/RNDocumentPicker/RNDocumentPicker.h

@@ -1,6 +1,1 @@
-module react_native_geolocation_service {
-  umbrella header "react-native-geolocation-service-umbrella.h"
-
-  export *
-  module * { export * }
-}
+../../../Target Support Files/react-native-geolocation-service/react-native-geolocation-service.modulemap

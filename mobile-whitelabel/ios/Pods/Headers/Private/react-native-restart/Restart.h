@@ -1,6 +1,1 @@
-#import <React/RCTBridgeModule.h>
-#import <React/RCTRootView.h>
-
-@interface Restart : NSObject <RCTBridgeModule>
-
-@end
+../../../../../node_modules/react-native-restart/ios/Restart.h

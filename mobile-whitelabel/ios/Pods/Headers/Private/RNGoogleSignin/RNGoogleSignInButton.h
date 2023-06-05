@@ -1,8 +1,1 @@
-#import <GoogleSignIn/GoogleSignIn.h>
-#import <React/RCTComponent.h>
-
-@interface RNGoogleSignInButton : GIDSignInButton
-
-@property (nonatomic, copy) RCTBubblingEventBlock onPress;
-
-@end
+../../../../../node_modules/react-native-google-signin/ios/RNGoogleSignin/RNGoogleSignInButton.h

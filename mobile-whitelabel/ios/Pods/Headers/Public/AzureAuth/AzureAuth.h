@@ -1,11 +1,1 @@
-
-#if __has_include("RCTBridgeModule.h")
-#import "RCTBridgeModule.h"
-#else
-#import <React/RCTBridgeModule.h>
-#endif
-
-@interface AzureAuth : NSObject <RCTBridgeModule>
-
-@end
-  
+../../../../../node_modules/react-native-azure-auth/ios/AzureAuth.h
