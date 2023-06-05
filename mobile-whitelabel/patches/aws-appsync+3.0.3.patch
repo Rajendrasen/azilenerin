@@ -1,0 +1,13 @@
+diff --git a/node_modules/aws-appsync/lib/store.js b/node_modules/aws-appsync/lib/store.js
+index 6094efa..6de168a 100644
+--- a/node_modules/aws-appsync/lib/store.js
++++ b/node_modules/aws-appsync/lib/store.js
+@@ -67,7 +67,7 @@ var redux_1 = require("redux");
+ var redux_offline_1 = require("@redux-offline/redux-offline");
+ var defaults_1 = require("@redux-offline/redux-offline/lib/defaults");
+ var constants_1 = require("@redux-offline/redux-offline/lib/constants");
+-var constants_2 = require("redux-persist/constants");
++var constants_2 = require("redux-persist/lib/constants");
+ var redux_thunk_1 = require("redux-thunk");
+ var index_1 = require("./cache/index");
+ var retry_link_1 = require("./link/retry-link");

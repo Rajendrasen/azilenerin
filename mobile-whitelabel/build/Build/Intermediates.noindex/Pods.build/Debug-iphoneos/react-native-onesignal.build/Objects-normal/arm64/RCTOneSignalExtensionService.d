@@ -1,0 +1,44 @@
+dependencies: \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/node_modules/react-native-onesignal/ios/RCTOneSignal/RCTOneSignalExtensionService.m \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/ios/Pods/Target\ Support\ Files/react-native-onesignal/react-native-onesignal-prefix.pch \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/build/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/OneSignalXCFramework/OneSignal.framework/Headers/OneSignal.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/build/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/OneSignalXCFramework/OneSignal.framework/Modules/module.modulemap \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/build/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/OneSignalXCFramework/OneSignalCore/OneSignalCore.framework/Modules/module.modulemap \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/build/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/OneSignalXCFramework/OneSignalCore/OneSignalCore.framework/Headers/OSPrivacyConsentController.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/build/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/OneSignalXCFramework/OneSignalCore/OneSignalCore.framework/Headers/OSJSONHandling.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/build/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/OneSignalXCFramework/OneSignalCore/OneSignalCore.framework/Headers/OSMacros.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/build/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/OneSignalXCFramework/OneSignalCore/OneSignalCore.framework/Headers/OneSignalTrackFirebaseAnalytics.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/build/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/OneSignalXCFramework/OneSignalCore/OneSignalCore.framework/Headers/OneSignalCoreHelper.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/build/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/OneSignalXCFramework/OneSignalCore/OneSignalCore.framework/Headers/OneSignalClient.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/build/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/OneSignalXCFramework/OneSignalCore/OneSignalCore.framework/Headers/OneSignalRequest.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/build/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/OneSignalXCFramework/OneSignalCore/OneSignalCore.framework/Headers/OSRequests.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/build/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/OneSignalXCFramework/OneSignalCore/OneSignalCore.framework/Headers/NSString+OneSignal.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/build/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/OneSignalXCFramework/OneSignalCore/OneSignalCore.framework/Headers/NSURL+OneSignal.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/build/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/OneSignalXCFramework/OneSignalCore/OneSignalCore.framework/Headers/OneSignalLog.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/build/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/OneSignalXCFramework/OneSignalCore/OneSignalCore.framework/Headers/OSNotificationClasses.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/build/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/OneSignalXCFramework/OneSignalCore/OneSignalCore.framework/Headers/OSNotification+Internal.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/build/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/OneSignalXCFramework/OneSignalCore/OneSignalCore.framework/Headers/OSNotification.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/build/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/OneSignalXCFramework/OneSignalCore/OneSignalCore.framework/Headers/OneSignalCommonDefines.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/build/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/OneSignalXCFramework/OneSignalCore/OneSignalCore.framework/Headers/OneSignalUserDefaults.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/build/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/OneSignalXCFramework/OneSignalCore/OneSignalCore.framework/Headers/OneSignalCore.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/ios/Pods/Headers/Public/yoga/Yoga.modulemap \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/build/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/OneSignalXCFramework/OneSignalOutcomes/OneSignalOutcomes.framework/Modules/module.modulemap \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/build/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/OneSignalXCFramework/OneSignalOutcomes/OneSignalOutcomes.framework/Headers/OSOutcomeEventsRepository.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/build/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/OneSignalXCFramework/OneSignalOutcomes/OneSignalOutcomes.framework/Headers/OSOutcomeEventsFactory.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/build/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/OneSignalXCFramework/OneSignalOutcomes/OneSignalOutcomes.framework/Headers/OneSignalOutcomeEventsController.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/build/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/OneSignalXCFramework/OneSignalOutcomes/OneSignalOutcomes.framework/Headers/OSCachedUniqueOutcome.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/build/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/OneSignalXCFramework/OneSignalOutcomes/OneSignalOutcomes.framework/Headers/OSOutcomeEventsCache.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/build/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/OneSignalXCFramework/OneSignalOutcomes/OneSignalOutcomes.framework/Headers/OSInfluenceDataDefines.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/build/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/OneSignalXCFramework/OneSignalOutcomes/OneSignalOutcomes.framework/Headers/OSOutcomeSourceBody.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/build/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/OneSignalXCFramework/OneSignalOutcomes/OneSignalOutcomes.framework/Headers/OSOutcomeSource.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/build/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/OneSignalXCFramework/OneSignalOutcomes/OneSignalOutcomes.framework/Headers/OSOutcomeEventParams.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/build/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/OneSignalXCFramework/OneSignalOutcomes/OneSignalOutcomes.framework/Headers/OSOutcomeEvent.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/build/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/OneSignalXCFramework/OneSignalOutcomes/OneSignalOutcomes.framework/Headers/OSInAppMessageOutcome.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/build/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/OneSignalXCFramework/OneSignalOutcomes/OneSignalOutcomes.framework/Headers/OSIndirectInfluence.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/build/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/OneSignalXCFramework/OneSignalOutcomes/OneSignalOutcomes.framework/Headers/OSChannelTracker.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/build/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/OneSignalXCFramework/OneSignalOutcomes/OneSignalOutcomes.framework/Headers/OSInfluenceDataRepository.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/build/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/OneSignalXCFramework/OneSignalOutcomes/OneSignalOutcomes.framework/Headers/OSTrackerFactory.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/build/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/OneSignalXCFramework/OneSignalOutcomes/OneSignalOutcomes.framework/Headers/OSInfluence.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/build/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/OneSignalXCFramework/OneSignalOutcomes/OneSignalOutcomes.framework/Headers/OSSessionManager.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/build/Build/Products/Debug-iphoneos/XCFrameworkIntermediates/OneSignalXCFramework/OneSignalOutcomes/OneSignalOutcomes.framework/Headers/OneSignalOutcomes.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/node_modules/react-native-onesignal/ios/RCTOneSignal/RCTOneSignalExtensionService.h

@@ -1,0 +1,6 @@
+import React from 'react';
+
+export const RouterContext = React.createContext({
+  auth: false,
+  onAuthentication: () => { },
+});

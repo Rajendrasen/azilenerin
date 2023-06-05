@@ -1,0 +1,7258 @@
+// eslint-disable
+// this is an auto generated file. This will be overwritten
+
+export const getDepartment = `query GetDepartment($id: ID!) {
+  getDepartment(id: $id) {
+    id
+    companyId
+    name
+    active
+    totalUsers
+    userDepartments {
+      id
+      userId
+      user {
+        id
+        cognitoId
+        companyId
+        emailAddress
+        firstName
+        lastName
+        title
+        departmentId
+        lastLogin
+        lastNotificationCheck
+        contacts {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        totalReferrals
+        webNotifications {
+          id
+          userId
+          requestingUserId
+          contactId
+          referralId
+          jobId
+          matches
+          message
+          dateCreated
+        }
+        connectedApps
+        active
+        createdById
+        dateCreated
+        ranking
+        previousRanking
+        ytdReferralCount
+      }
+      departmentId
+      department {
+        id
+        companyId
+        name
+        active
+        totalUsers
+        userDepartments {
+          id
+          userId
+          departmentId
+        }
+      }
+    }
+  }
+}
+`;
+export const listDepartments = `query ListDepartments(
+  $filter: TableDepartmentFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listDepartments(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      companyId
+      name
+      active
+      totalUsers
+      userDepartments {
+        id
+        userId
+        user {
+          id
+          cognitoId
+          companyId
+          emailAddress
+          firstName
+          lastName
+          title
+          departmentId
+          lastLogin
+          lastNotificationCheck
+          contacts {
+            id
+            firstName
+            lastName
+            emailAddress
+            socialMediaAccounts
+            userId
+            companyId
+            phoneNumber
+            jobHistory
+            fullContactData
+            dateCreated
+          }
+          totalReferrals
+          webNotifications {
+            id
+            userId
+            requestingUserId
+            contactId
+            referralId
+            jobId
+            matches
+            message
+            dateCreated
+          }
+          connectedApps
+          active
+          createdById
+          dateCreated
+          ranking
+          previousRanking
+          ytdReferralCount
+        }
+        departmentId
+        department {
+          id
+          companyId
+          name
+          active
+          totalUsers
+          userDepartments {
+            id
+            userId
+            departmentId
+          }
+        }
+      }
+    }
+    nextToken
+  }
+}
+`;
+export const queryDepartmentsByCompanyIdIndex = `query QueryDepartmentsByCompanyIdIndex(
+  $companyId: ID!
+  $first: Int
+  $after: String
+) {
+  queryDepartmentsByCompanyIdIndex(
+    companyId: $companyId
+    first: $first
+    after: $after
+  ) {
+    items {
+      id
+      companyId
+      name
+      active
+      totalUsers
+      userDepartments {
+        id
+        userId
+        user {
+          id
+          cognitoId
+          companyId
+          emailAddress
+          firstName
+          lastName
+          title
+          departmentId
+          lastLogin
+          lastNotificationCheck
+          contacts {
+            id
+            firstName
+            lastName
+            emailAddress
+            socialMediaAccounts
+            userId
+            companyId
+            phoneNumber
+            jobHistory
+            fullContactData
+            dateCreated
+          }
+          totalReferrals
+          webNotifications {
+            id
+            userId
+            requestingUserId
+            contactId
+            referralId
+            jobId
+            matches
+            message
+            dateCreated
+          }
+          connectedApps
+          active
+          createdById
+          dateCreated
+          ranking
+          previousRanking
+          ytdReferralCount
+        }
+        departmentId
+        department {
+          id
+          companyId
+          name
+          active
+          totalUsers
+          userDepartments {
+            id
+            userId
+            departmentId
+          }
+        }
+      }
+    }
+    nextToken
+  }
+}
+`;
+export const getCompany = `query GetCompany($id: ID!) {
+  getCompany(id: $id) {
+    id
+    name
+    defaultBonusAmount
+    contactIncentiveBonus
+    websiteUrl
+    dateCreated
+    users {
+      id
+      cognitoId
+      companyId
+      company {
+        id
+        name
+        defaultBonusAmount
+        contactIncentiveBonus
+        websiteUrl
+        dateCreated
+        users {
+          id
+          cognitoId
+          companyId
+          emailAddress
+          firstName
+          lastName
+          title
+          departmentId
+          lastLogin
+          lastNotificationCheck
+          contacts {
+            id
+            firstName
+            lastName
+            emailAddress
+            socialMediaAccounts
+            userId
+            companyId
+            phoneNumber
+            jobHistory
+            fullContactData
+            dateCreated
+          }
+          totalReferrals
+          webNotifications {
+            id
+            userId
+            requestingUserId
+            contactId
+            referralId
+            jobId
+            matches
+            message
+            dateCreated
+          }
+          connectedApps
+          active
+          createdById
+          dateCreated
+          ranking
+          previousRanking
+          ytdReferralCount
+        }
+      }
+      emailAddress
+      role
+      firstName
+      lastName
+      title
+      avatar {
+        bucket
+        region
+        key
+      }
+      departmentId
+      department {
+        id
+        companyId
+        name
+        active
+        totalUsers
+        userDepartments {
+          id
+          userId
+          departmentId
+        }
+      }
+      managedDepartments {
+        id
+        userId
+        departmentId
+      }
+      lastLogin
+      lastNotificationCheck
+      referrals {
+        id
+        companyId
+        contactId
+        userId
+        jobId
+        note
+        message
+        referralDate
+        hireDate
+      }
+      contacts {
+        id
+        firstName
+        lastName
+        emailAddress
+        socialMediaAccounts
+        referrals {
+          id
+          companyId
+          contactId
+          userId
+          jobId
+          note
+          message
+          referralDate
+          hireDate
+        }
+        userId
+        user {
+          id
+          cognitoId
+          companyId
+          emailAddress
+          firstName
+          lastName
+          title
+          departmentId
+          lastLogin
+          lastNotificationCheck
+          contacts {
+            id
+            firstName
+            lastName
+            emailAddress
+            socialMediaAccounts
+            userId
+            companyId
+            phoneNumber
+            jobHistory
+            fullContactData
+            dateCreated
+          }
+          totalReferrals
+          webNotifications {
+            id
+            userId
+            requestingUserId
+            contactId
+            referralId
+            jobId
+            matches
+            message
+            dateCreated
+          }
+          connectedApps
+          active
+          createdById
+          dateCreated
+          ranking
+          previousRanking
+          ytdReferralCount
+        }
+        companyId
+        company {
+          id
+          name
+          defaultBonusAmount
+          contactIncentiveBonus
+          websiteUrl
+          dateCreated
+          users {
+            id
+            cognitoId
+            companyId
+            emailAddress
+            firstName
+            lastName
+            title
+            departmentId
+            lastLogin
+            lastNotificationCheck
+            contacts {
+              id
+              firstName
+              lastName
+              emailAddress
+              socialMediaAccounts
+              userId
+              companyId
+              phoneNumber
+              jobHistory
+              fullContactData
+              dateCreated
+            }
+            totalReferrals
+            webNotifications {
+              id
+              userId
+              requestingUserId
+              contactId
+              referralId
+              jobId
+              matches
+              message
+              dateCreated
+            }
+            connectedApps
+            active
+            createdById
+            dateCreated
+            ranking
+            previousRanking
+            ytdReferralCount
+          }
+        }
+        phoneNumber
+        jobHistory
+        importMethod
+        fullContactData
+      
+        dateCreated
+      }
+      totalReferrals
+      webNotifications {
+        id
+        type
+        userId
+        user {
+          id
+          cognitoId
+          companyId
+          emailAddress
+          firstName
+          lastName
+          title
+          departmentId
+          lastLogin
+          lastNotificationCheck
+          contacts {
+            id
+            firstName
+            lastName
+            emailAddress
+            socialMediaAccounts
+            userId
+            companyId
+            phoneNumber
+            jobHistory
+            fullContactData
+            dateCreated
+          }
+          totalReferrals
+          webNotifications {
+            id
+            userId
+            requestingUserId
+            contactId
+            referralId
+            jobId
+            matches
+            message
+            dateCreated
+          }
+          connectedApps
+          active
+          createdById
+          dateCreated
+          ranking
+          previousRanking
+          ytdReferralCount
+        }
+        referralRequestedStatus
+        requestingUserId
+        requestingUser {
+          id
+          cognitoId
+          companyId
+          emailAddress
+          firstName
+          lastName
+          title
+          departmentId
+          lastLogin
+          lastNotificationCheck
+          contacts {
+            id
+            firstName
+            lastName
+            emailAddress
+            socialMediaAccounts
+            userId
+            companyId
+            phoneNumber
+            jobHistory
+            fullContactData
+            dateCreated
+          }
+          totalReferrals
+          webNotifications {
+            id
+            userId
+            requestingUserId
+            contactId
+            referralId
+            jobId
+            matches
+            message
+            dateCreated
+          }
+          connectedApps
+          active
+          createdById
+          dateCreated
+          ranking
+          previousRanking
+          ytdReferralCount
+        }
+        contactId
+        contact {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        referralId
+        referral {
+          id
+          companyId
+          contactId
+          userId
+          jobId
+          note
+          message
+          referralDate
+          hireDate
+        }
+        jobId
+        job {
+          id
+          companyId
+          departmentId
+          title
+          description
+          publicLink
+          salary
+          location
+          hiringManagerId
+          createdById
+          referralBonus
+          shares
+          views
+          referrals {
+            id
+            companyId
+            contactId
+            userId
+            jobId
+            note
+            message
+            referralDate
+            hireDate
+          }
+          matches {
+            id
+            firstName
+            lastName
+            emailAddress
+            socialMediaAccounts
+            userId
+            companyId
+            phoneNumber
+            jobHistory
+            fullContactData
+            dateCreated
+          }
+          dateCreated
+        }
+        matches
+        message
+        dateCreated
+      }
+      connectedApps
+      active
+      createdById
+      createdBy {
+        id
+        cognitoId
+        companyId
+        emailAddress
+        firstName
+        lastName
+        title
+        departmentId
+        lastLogin
+        lastNotificationCheck
+        contacts {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        totalReferrals
+        webNotifications {
+          id
+          userId
+          requestingUserId
+          contactId
+          referralId
+          jobId
+          matches
+          message
+          dateCreated
+        }
+        connectedApps
+        active
+        createdById
+        dateCreated
+        ranking
+        previousRanking
+        ytdReferralCount
+      }
+      dateCreated
+      ranking
+      previousRanking
+      ytdReferralCount
+    }
+  }
+}
+`;
+export const listCompanies = `query ListCompanies(
+  $filter: TableCompanyFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listCompanies(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      name
+      defaultBonusAmount
+      contactIncentiveBonus
+      websiteUrl
+      dateCreated
+      users {
+        id
+        cognitoId
+        companyId
+        company {
+          id
+          name
+          defaultBonusAmount
+          contactIncentiveBonus
+          websiteUrl
+          dateCreated
+          users {
+            id
+            cognitoId
+            companyId
+            emailAddress
+            firstName
+            lastName
+            title
+            departmentId
+            lastLogin
+            lastNotificationCheck
+            contacts {
+              id
+              firstName
+              lastName
+              emailAddress
+              socialMediaAccounts
+              userId
+              companyId
+              phoneNumber
+              jobHistory
+              fullContactData
+              dateCreated
+            }
+            totalReferrals
+            webNotifications {
+              id
+              userId
+              requestingUserId
+              contactId
+              referralId
+              jobId
+              matches
+              message
+              dateCreated
+            }
+            connectedApps
+            active
+            createdById
+            dateCreated
+            ranking
+            previousRanking
+            ytdReferralCount
+          }
+        }
+        emailAddress
+        role
+        firstName
+        lastName
+        title
+        avatar {
+          bucket
+          region
+          key
+        }
+        departmentId
+        department {
+          id
+          companyId
+          name
+          active
+          totalUsers
+          userDepartments {
+            id
+            userId
+            departmentId
+          }
+        }
+        managedDepartments {
+          id
+          userId
+          departmentId
+        }
+        lastLogin
+        lastNotificationCheck
+        referrals {
+          id
+          companyId
+          contactId
+          userId
+          jobId
+          note
+          message
+          referralDate
+          hireDate
+        }
+        contacts {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          referrals {
+            id
+            companyId
+            contactId
+            userId
+            jobId
+            note
+            message
+            referralDate
+            hireDate
+          }
+          userId
+          user {
+            id
+            cognitoId
+            companyId
+            emailAddress
+            firstName
+            lastName
+            title
+            departmentId
+            lastLogin
+            lastNotificationCheck
+            contacts {
+              id
+              firstName
+              lastName
+              emailAddress
+              socialMediaAccounts
+              userId
+              companyId
+              phoneNumber
+              jobHistory
+              fullContactData
+              dateCreated
+            }
+            totalReferrals
+            webNotifications {
+              id
+              userId
+              requestingUserId
+              contactId
+              referralId
+              jobId
+              matches
+              message
+              dateCreated
+            }
+            connectedApps
+            active
+            createdById
+            dateCreated
+            ranking
+            previousRanking
+            ytdReferralCount
+          }
+          companyId
+          company {
+            id
+            name
+            defaultBonusAmount
+            contactIncentiveBonus
+            websiteUrl
+            dateCreated
+            users {
+              id
+              cognitoId
+              companyId
+              emailAddress
+              firstName
+              lastName
+              title
+              departmentId
+              lastLogin
+              lastNotificationCheck
+              contacts {
+                id
+                firstName
+                lastName
+                emailAddress
+                socialMediaAccounts
+                userId
+                companyId
+                phoneNumber
+                jobHistory
+                fullContactData
+                dateCreated
+              }
+              totalReferrals
+              webNotifications {
+                id
+                userId
+                requestingUserId
+                contactId
+                referralId
+                jobId
+                matches
+                message
+                dateCreated
+              }
+              connectedApps
+              active
+              createdById
+              dateCreated
+              ranking
+              previousRanking
+              ytdReferralCount
+            }
+          }
+          phoneNumber
+          jobHistory
+          importMethod
+          fullContactData
+         
+          dateCreated
+        }
+        totalReferrals
+        webNotifications {
+          id
+          type
+          userId
+          user {
+            id
+            cognitoId
+            companyId
+            emailAddress
+            firstName
+            lastName
+            title
+            departmentId
+            lastLogin
+            lastNotificationCheck
+            contacts {
+              id
+              firstName
+              lastName
+              emailAddress
+              socialMediaAccounts
+              userId
+              companyId
+              phoneNumber
+              jobHistory
+              fullContactData
+              dateCreated
+            }
+            totalReferrals
+            webNotifications {
+              id
+              userId
+              requestingUserId
+              contactId
+              referralId
+              jobId
+              matches
+              message
+              dateCreated
+            }
+            connectedApps
+            active
+            createdById
+            dateCreated
+            ranking
+            previousRanking
+            ytdReferralCount
+          }
+          referralRequestedStatus
+          requestingUserId
+          requestingUser {
+            id
+            cognitoId
+            companyId
+            emailAddress
+            firstName
+            lastName
+            title
+            departmentId
+            lastLogin
+            lastNotificationCheck
+            contacts {
+              id
+              firstName
+              lastName
+              emailAddress
+              socialMediaAccounts
+              userId
+              companyId
+              phoneNumber
+              jobHistory
+              fullContactData
+              dateCreated
+            }
+            totalReferrals
+            webNotifications {
+              id
+              userId
+              requestingUserId
+              contactId
+              referralId
+              jobId
+              matches
+              message
+              dateCreated
+            }
+            connectedApps
+            active
+            createdById
+            dateCreated
+            ranking
+            previousRanking
+            ytdReferralCount
+          }
+          contactId
+          contact {
+            id
+            firstName
+            lastName
+            emailAddress
+            socialMediaAccounts
+            userId
+            companyId
+            phoneNumber
+            jobHistory
+            fullContactData
+            dateCreated
+          }
+          referralId
+          referral {
+            id
+            companyId
+            contactId
+            userId
+            jobId
+            note
+            message
+            referralDate
+            hireDate
+          }
+          jobId
+          job {
+            id
+            companyId
+            departmentId
+            title
+            description
+            publicLink
+            salary
+            location
+            hiringManagerId
+            createdById
+            referralBonus
+            shares
+            views
+            referrals {
+              id
+              companyId
+              contactId
+              userId
+              jobId
+              note
+              message
+              referralDate
+              hireDate
+            }
+            matches {
+              id
+              firstName
+              lastName
+              emailAddress
+              socialMediaAccounts
+              userId
+              companyId
+              phoneNumber
+              jobHistory
+              fullContactData
+              dateCreated
+            }
+            dateCreated
+          }
+          matches
+          message
+          dateCreated
+        }
+        connectedApps
+        active
+        createdById
+        createdBy {
+          id
+          cognitoId
+          companyId
+          emailAddress
+          firstName
+          lastName
+          title
+          departmentId
+          lastLogin
+          lastNotificationCheck
+          contacts {
+            id
+            firstName
+            lastName
+            emailAddress
+            socialMediaAccounts
+            userId
+            companyId
+            phoneNumber
+            jobHistory
+            fullContactData
+            dateCreated
+          }
+          totalReferrals
+          webNotifications {
+            id
+            userId
+            requestingUserId
+            contactId
+            referralId
+            jobId
+            matches
+            message
+            dateCreated
+          }
+          connectedApps
+          active
+          createdById
+          dateCreated
+          ranking
+          previousRanking
+          ytdReferralCount
+        }
+        dateCreated
+        ranking
+        previousRanking
+        ytdReferralCount
+      }
+    }
+    nextToken
+  }
+}
+`;
+export const getUser = `query GetUser($id: ID!) {
+  getUser(id: $id) {
+    id
+    cognitoId
+    companyId
+    company {
+      id
+      name
+      defaultBonusAmount
+      contactIncentiveBonus
+      websiteUrl
+      dateCreated
+      users {
+        id
+        cognitoId
+        companyId
+        emailAddress
+        firstName
+        lastName
+        title
+        departmentId
+        lastLogin
+        lastNotificationCheck
+        contacts {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        totalReferrals
+        webNotifications {
+          id
+          userId
+          requestingUserId
+          contactId
+          referralId
+          jobId
+          matches
+          message
+          dateCreated
+        }
+        connectedApps
+        active
+        createdById
+        dateCreated
+        ranking
+        previousRanking
+        ytdReferralCount
+      }
+    }
+    emailAddress
+    role
+    firstName
+    lastName
+    title
+    avatar {
+      bucket
+      region
+      key
+    }
+    departmentId
+    department {
+      id
+      companyId
+      name
+      active
+      totalUsers
+      userDepartments {
+        id
+        userId
+        departmentId
+      }
+    }
+    managedDepartments {
+      id
+      userId
+      departmentId
+    }
+    lastLogin
+    lastNotificationCheck
+    referrals {
+      id
+      companyId
+      contactId
+      userId
+      jobId
+      note
+      message
+      referralDate
+      hireDate
+    }
+    contacts {
+      id
+      firstName
+      lastName
+      emailAddress
+      socialMediaAccounts
+      referrals {
+        id
+        companyId
+        contactId
+        userId
+        jobId
+        note
+        message
+        referralDate
+        hireDate
+      }
+      userId
+      user {
+        id
+        cognitoId
+        companyId
+        emailAddress
+        firstName
+        lastName
+        title
+        departmentId
+        lastLogin
+        lastNotificationCheck
+        contacts {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        totalReferrals
+        webNotifications {
+          id
+          userId
+          requestingUserId
+          contactId
+          referralId
+          jobId
+          matches
+          message
+          dateCreated
+        }
+        connectedApps
+        active
+        createdById
+        dateCreated
+        ranking
+        previousRanking
+        ytdReferralCount
+      }
+      companyId
+      company {
+        id
+        name
+        defaultBonusAmount
+        contactIncentiveBonus
+        websiteUrl
+        dateCreated
+        users {
+          id
+          cognitoId
+          companyId
+          emailAddress
+          firstName
+          lastName
+          title
+          departmentId
+          lastLogin
+          lastNotificationCheck
+          contacts {
+            id
+            firstName
+            lastName
+            emailAddress
+            socialMediaAccounts
+            userId
+            companyId
+            phoneNumber
+            jobHistory
+            fullContactData
+            dateCreated
+          }
+          totalReferrals
+          webNotifications {
+            id
+            userId
+            requestingUserId
+            contactId
+            referralId
+            jobId
+            matches
+            message
+            dateCreated
+          }
+          connectedApps
+          active
+          createdById
+          dateCreated
+          ranking
+          previousRanking
+          ytdReferralCount
+        }
+      }
+      phoneNumber
+      jobHistory
+      importMethod
+      fullContactData
+    
+      dateCreated
+    }
+    totalReferrals
+    webNotifications {
+      id
+      type
+      userId
+      user {
+        id
+        cognitoId
+        companyId
+        emailAddress
+        firstName
+        lastName
+        title
+        departmentId
+        lastLogin
+        lastNotificationCheck
+        contacts {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        totalReferrals
+        webNotifications {
+          id
+          userId
+          requestingUserId
+          contactId
+          referralId
+          jobId
+          matches
+          message
+          dateCreated
+        }
+        connectedApps
+        active
+        createdById
+        dateCreated
+        ranking
+        previousRanking
+        ytdReferralCount
+      }
+      referralRequestedStatus
+      requestingUserId
+      requestingUser {
+        id
+        cognitoId
+        companyId
+        emailAddress
+        firstName
+        lastName
+        title
+        departmentId
+        lastLogin
+        lastNotificationCheck
+        contacts {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        totalReferrals
+        webNotifications {
+          id
+          userId
+          requestingUserId
+          contactId
+          referralId
+          jobId
+          matches
+          message
+          dateCreated
+        }
+        connectedApps
+        active
+        createdById
+        dateCreated
+        ranking
+        previousRanking
+        ytdReferralCount
+      }
+      contactId
+      contact {
+        id
+        firstName
+        lastName
+        emailAddress
+        socialMediaAccounts
+        userId
+        companyId
+        phoneNumber
+        jobHistory
+        fullContactData
+        dateCreated
+      }
+      referralId
+      referral {
+        id
+        companyId
+        contactId
+        userId
+        jobId
+        note
+        message
+        referralDate
+        hireDate
+      }
+      jobId
+      job {
+        id
+        companyId
+        departmentId
+        title
+        description
+        publicLink
+        salary
+        location
+        hiringManagerId
+        createdById
+        referralBonus
+        shares
+        views
+        referrals {
+          id
+          companyId
+          contactId
+          userId
+          jobId
+          note
+          message
+          referralDate
+          hireDate
+        }
+        matches {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        dateCreated
+      }
+      matches
+      message
+      dateCreated
+    }
+    connectedApps
+    active
+    createdById
+    createdBy {
+      id
+      cognitoId
+      companyId
+      emailAddress
+      firstName
+      lastName
+      title
+      departmentId
+      lastLogin
+      lastNotificationCheck
+      contacts {
+        id
+        firstName
+        lastName
+        emailAddress
+        socialMediaAccounts
+        userId
+        companyId
+        phoneNumber
+        jobHistory
+        fullContactData
+        dateCreated
+      }
+      totalReferrals
+      webNotifications {
+        id
+        userId
+        requestingUserId
+        contactId
+        referralId
+        jobId
+        matches
+        message
+        dateCreated
+      }
+      connectedApps
+      active
+      createdById
+      dateCreated
+      ranking
+      previousRanking
+      ytdReferralCount
+    }
+    dateCreated
+    ranking
+    previousRanking
+    ytdReferralCount
+  }
+}
+`;
+export const getUserByCognitoId = `query GetUserByCognitoId($cognitoId: ID!) {
+  getUserByCognitoId(cognitoId: $cognitoId) {
+    id
+    accountClaimId
+      accountClaim {
+        id
+        active
+        eligible
+        employeeId
+        firstName
+        lastName
+        dateOfBirth
+        title
+        department
+        atsId
+        middleName
+        isRehire
+      }
+    cognitoId
+    companyId
+    userGroupId
+    subCompany {
+      companyId
+      id
+      name
+      logo {
+        bucket
+        key
+        region
+      }
+    }
+    company {
+      id
+      enableCustomPage
+      customPageTitle
+      enableCareerProfile
+      hideShareLinkForDepartment
+      enableJobMatching
+      disableReferrals
+      hideBonus
+      disableShareLink
+      hideJobsPage
+      accountType
+      allowSelfReferralsInternalLink
+      disableManagerPermissions
+      name
+      enableProspectCreation
+      theme
+      referralStatus
+      defaultBonusAmount
+      enableGeneralReferrals
+      contactIncentiveBonus
+      websiteUrl
+      dateCreated
+      disableSmartReferrals
+      confirmCompliance
+      brandColor
+      logo{
+        key
+        bucket
+        region
+      }
+      symbol {
+        key
+        bucket
+        region
+      }
+      users {
+        id
+        cognitoId
+        companyId
+        emailAddress
+        firstName
+        lastName
+        title
+        departmentId
+        lastLogin
+        lastNotificationCheck
+        contacts {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        totalReferrals
+        webNotifications {
+          id
+          userId
+          requestingUserId
+          contactId
+          referralId
+          jobId
+          matches
+          message
+          dateCreated
+        }
+        connectedApps
+        active
+        createdById
+        dateCreated
+        ranking
+        previousRanking
+        ytdReferralCount
+      }
+    }
+    emailAddress
+    role
+    firstName
+    lastName
+    title
+    avatar {
+      bucket
+      region
+      key
+    }
+    departmentId
+    department {
+      id
+      companyId
+      name
+      active
+      totalUsers
+      userDepartments {
+        id
+        userId
+        departmentId
+      }
+    }
+    managedDepartments {
+      id
+      userId
+      departmentId
+    }
+    lastLogin
+    lastNotificationCheck
+    referrals {
+      id
+      companyId
+      contactId
+      userId
+      jobId
+      note
+      message
+      referralDate
+      hireDate
+    }
+    contacts {
+      id
+      firstName
+      lastName
+      emailAddress
+      socialMediaAccounts
+      referrals {
+        id
+        companyId
+        contactId
+        userId
+        jobId
+        note
+        message
+        referralDate
+        hireDate
+      }
+      userId
+      user {
+        id
+        cognitoId
+        companyId
+        emailAddress
+        firstName
+        lastName
+        title
+        departmentId
+        lastLogin
+        lastNotificationCheck
+        contacts {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        totalReferrals
+        webNotifications {
+          id
+          userId
+          requestingUserId
+          contactId
+          referralId
+          jobId
+          matches
+          message
+          dateCreated
+        }
+        connectedApps
+        active
+        createdById
+        dateCreated
+        ranking
+        previousRanking
+        ytdReferralCount
+      }
+      companyId
+      company {
+        id
+        name
+        defaultBonusAmount
+        contactIncentiveBonus
+        websiteUrl
+        dateCreated
+        users {
+          id
+          cognitoId
+          companyId
+          emailAddress
+          firstName
+          lastName
+          title
+          departmentId
+          lastLogin
+          lastNotificationCheck
+          contacts {
+            id
+            firstName
+            lastName
+            emailAddress
+            socialMediaAccounts
+            userId
+            companyId
+            phoneNumber
+            jobHistory
+            fullContactData
+            dateCreated
+          }
+          totalReferrals
+          webNotifications {
+            id
+            userId
+            requestingUserId
+            contactId
+            referralId
+            jobId
+            matches
+            message
+            dateCreated
+          }
+          connectedApps
+          active
+          createdById
+          dateCreated
+          ranking
+          previousRanking
+          ytdReferralCount
+        }
+      }
+      phoneNumber
+      jobHistory
+      importMethod
+      fullContactData
+     
+      dateCreated
+    }
+    totalReferrals
+    webNotifications {
+      id
+      type
+      userId
+      user {
+        id
+        cognitoId
+        companyId
+        emailAddress
+        firstName
+        lastName
+        title
+        departmentId
+        lastLogin
+        lastNotificationCheck
+        contacts {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        totalReferrals
+        webNotifications {
+          id
+          userId
+          requestingUserId
+          contactId
+          referralId
+          jobId
+          matches
+          message
+          dateCreated
+        }
+        connectedApps
+        active
+        createdById
+        dateCreated
+        ranking
+        previousRanking
+        ytdReferralCount
+      }
+      referralRequestedStatus
+      requestingUserId
+      requestingUser {
+        id
+        cognitoId
+        companyId
+        emailAddress
+        firstName
+        lastName
+        title
+        departmentId
+        lastLogin
+        lastNotificationCheck
+        contacts {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        totalReferrals
+        webNotifications {
+          id
+          userId
+          requestingUserId
+          contactId
+          referralId
+          jobId
+          matches
+          message
+          dateCreated
+        }
+        connectedApps
+        active
+        createdById
+        dateCreated
+        ranking
+        previousRanking
+        ytdReferralCount
+      }
+      contactId
+      contact {
+        id
+        firstName
+        lastName
+        emailAddress
+        socialMediaAccounts
+        userId
+        companyId
+        phoneNumber
+        jobHistory
+        fullContactData
+        dateCreated
+      }
+      referralId
+      referral {
+        id
+        companyId
+        contactId
+        userId
+        jobId
+        note
+        message
+        referralDate
+        hireDate
+      }
+      jobId
+      job {
+        id
+        companyId
+        departmentId
+        title
+        description
+        publicLink
+        salary
+        location
+        hiringManagerId
+        createdById
+        referralBonus
+        shares
+        views
+        referrals {
+          id
+          companyId
+          contactId
+          userId
+          jobId
+          note
+          message
+          referralDate
+          hireDate
+        }
+        matches {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        dateCreated
+      }
+      matches
+      message
+      dateCreated
+    }
+    connectedApps
+    active
+    createdById
+    createdBy {
+      id
+      cognitoId
+      companyId
+      emailAddress
+      firstName
+      lastName
+      title
+      departmentId
+      lastLogin
+      lastNotificationCheck
+      contacts {
+        id
+        firstName
+        lastName
+        emailAddress
+        socialMediaAccounts
+        userId
+        companyId
+        phoneNumber
+        jobHistory
+        fullContactData
+        dateCreated
+      }
+      totalReferrals
+      webNotifications {
+        id
+        userId
+        requestingUserId
+        contactId
+        referralId
+        jobId
+        matches
+        message
+        dateCreated
+      }
+      connectedApps
+      active
+      createdById
+      dateCreated
+      ranking
+      previousRanking
+      ytdReferralCount
+    }
+    dateCreated
+    ranking
+    previousRanking
+    ytdReferralCount
+    userGroup {
+      id
+      currency
+      name
+    }
+  }
+}
+`;
+export const listUsers = `query ListUsers(
+  $filter: TableUserFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listUsers(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      cognitoId
+      companyId
+      company {
+        id
+        name
+        defaultBonusAmount
+        contactIncentiveBonus
+        websiteUrl
+        dateCreated
+        users {
+          id
+          cognitoId
+          companyId
+          emailAddress
+          firstName
+          lastName
+          title
+          departmentId
+          lastLogin
+          lastNotificationCheck
+          contacts {
+            id
+            firstName
+            lastName
+            emailAddress
+            socialMediaAccounts
+            userId
+            companyId
+            phoneNumber
+            jobHistory
+            fullContactData
+            dateCreated
+          }
+          totalReferrals
+          webNotifications {
+            id
+            userId
+            requestingUserId
+            contactId
+            referralId
+            jobId
+            matches
+            message
+            dateCreated
+          }
+          connectedApps
+          active
+          createdById
+          dateCreated
+          ranking
+          previousRanking
+          ytdReferralCount
+        }
+      }
+      emailAddress
+      role
+      firstName
+      lastName
+      title
+      avatar {
+        bucket
+        region
+        key
+      }
+      departmentId
+      department {
+        id
+        companyId
+        name
+        active
+        totalUsers
+        userDepartments {
+          id
+          userId
+          departmentId
+        }
+      }
+      managedDepartments {
+        id
+        userId
+        departmentId
+      }
+      lastLogin
+      lastNotificationCheck
+      referrals {
+        id
+        companyId
+        contactId
+        userId
+        jobId
+        note
+        message
+        referralDate
+        hireDate
+      }
+      contacts {
+        id
+        firstName
+        lastName
+        emailAddress
+        socialMediaAccounts
+        referrals {
+          id
+          companyId
+          contactId
+          userId
+          jobId
+          note
+          message
+          referralDate
+          hireDate
+        }
+        userId
+        user {
+          id
+          cognitoId
+          companyId
+          emailAddress
+          firstName
+          lastName
+          title
+          departmentId
+          lastLogin
+          lastNotificationCheck
+          contacts {
+            id
+            firstName
+            lastName
+            emailAddress
+            socialMediaAccounts
+            userId
+            companyId
+            phoneNumber
+            jobHistory
+            fullContactData
+            dateCreated
+          }
+          totalReferrals
+          webNotifications {
+            id
+            userId
+            requestingUserId
+            contactId
+            referralId
+            jobId
+            matches
+            message
+            dateCreated
+          }
+          connectedApps
+          active
+          createdById
+          dateCreated
+          ranking
+          previousRanking
+          ytdReferralCount
+        }
+        companyId
+        company {
+          id
+          name
+          defaultBonusAmount
+          contactIncentiveBonus
+          websiteUrl
+          dateCreated
+          users {
+            id
+            cognitoId
+            companyId
+            emailAddress
+            firstName
+            lastName
+            title
+            departmentId
+            lastLogin
+            lastNotificationCheck
+            contacts {
+              id
+              firstName
+              lastName
+              emailAddress
+              socialMediaAccounts
+              userId
+              companyId
+              phoneNumber
+              jobHistory
+              fullContactData
+              dateCreated
+            }
+            totalReferrals
+            webNotifications {
+              id
+              userId
+              requestingUserId
+              contactId
+              referralId
+              jobId
+              matches
+              message
+              dateCreated
+            }
+            connectedApps
+            active
+            createdById
+            dateCreated
+            ranking
+            previousRanking
+            ytdReferralCount
+          }
+        }
+        phoneNumber
+        jobHistory
+        importMethod
+        fullContactData
+       
+        dateCreated
+      }
+      totalReferrals
+      webNotifications {
+        id
+        type
+        userId
+        user {
+          id
+          cognitoId
+          companyId
+          emailAddress
+          firstName
+          lastName
+          title
+          departmentId
+          lastLogin
+          lastNotificationCheck
+          contacts {
+            id
+            firstName
+            lastName
+            emailAddress
+            socialMediaAccounts
+            userId
+            companyId
+            phoneNumber
+            jobHistory
+            fullContactData
+            dateCreated
+          }
+          totalReferrals
+          webNotifications {
+            id
+            userId
+            requestingUserId
+            contactId
+            referralId
+            jobId
+            matches
+            message
+            dateCreated
+          }
+          connectedApps
+          active
+          createdById
+          dateCreated
+          ranking
+          previousRanking
+          ytdReferralCount
+        }
+        referralRequestedStatus
+        requestingUserId
+        requestingUser {
+          id
+          cognitoId
+          companyId
+          emailAddress
+          firstName
+          lastName
+          title
+          departmentId
+          lastLogin
+          lastNotificationCheck
+          contacts {
+            id
+            firstName
+            lastName
+            emailAddress
+            socialMediaAccounts
+            userId
+            companyId
+            phoneNumber
+            jobHistory
+            fullContactData
+            dateCreated
+          }
+          totalReferrals
+          webNotifications {
+            id
+            userId
+            requestingUserId
+            contactId
+            referralId
+            jobId
+            matches
+            message
+            dateCreated
+          }
+          connectedApps
+          active
+          createdById
+          dateCreated
+          ranking
+          previousRanking
+          ytdReferralCount
+        }
+        contactId
+        contact {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        referralId
+        referral {
+          id
+          companyId
+          contactId
+          userId
+          jobId
+          note
+          message
+          referralDate
+          hireDate
+        }
+        jobId
+        job {
+          id
+          companyId
+          departmentId
+          title
+          description
+          publicLink
+          salary
+          location
+          hiringManagerId
+          createdById
+          referralBonus
+          shares
+          views
+          referrals {
+            id
+            companyId
+            contactId
+            userId
+            jobId
+            note
+            message
+            referralDate
+            hireDate
+          }
+          matches {
+            id
+            firstName
+            lastName
+            emailAddress
+            socialMediaAccounts
+            userId
+            companyId
+            phoneNumber
+            jobHistory
+            fullContactData
+            dateCreated
+          }
+          dateCreated
+        }
+        matches
+        message
+        dateCreated
+      }
+      connectedApps
+      active
+      createdById
+      createdBy {
+        id
+        cognitoId
+        companyId
+        emailAddress
+        firstName
+        lastName
+        title
+        departmentId
+        lastLogin
+        lastNotificationCheck
+        contacts {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        totalReferrals
+        webNotifications {
+          id
+          userId
+          requestingUserId
+          contactId
+          referralId
+          jobId
+          matches
+          message
+          dateCreated
+        }
+        connectedApps
+        active
+        createdById
+        dateCreated
+        ranking
+        previousRanking
+        ytdReferralCount
+      }
+      dateCreated
+      ranking
+      previousRanking
+      ytdReferralCount
+    }
+    nextToken
+  }
+}
+`;
+export const queryUsersByEmailAddressPasswordIndex = `query QueryUsersByEmailAddressPasswordIndex(
+  $emailAddress: String!
+  $first: Int
+  $after: String
+) {
+  queryUsersByEmailAddressPasswordIndex(
+    emailAddress: $emailAddress
+    first: $first
+    after: $after
+  ) {
+    items {
+      id
+      cognitoId
+      companyId
+      company {
+        id
+        name
+        defaultBonusAmount
+        contactIncentiveBonus
+        websiteUrl
+        dateCreated
+        users {
+          id
+          cognitoId
+          companyId
+          emailAddress
+          firstName
+          lastName
+          title
+          departmentId
+          lastLogin
+          lastNotificationCheck
+          contacts {
+            id
+            firstName
+            lastName
+            emailAddress
+            socialMediaAccounts
+            userId
+            companyId
+            phoneNumber
+            jobHistory
+            fullContactData
+            dateCreated
+          }
+          totalReferrals
+          webNotifications {
+            id
+            userId
+            requestingUserId
+            contactId
+            referralId
+            jobId
+            matches
+            message
+            dateCreated
+          }
+          connectedApps
+          active
+          createdById
+          dateCreated
+          ranking
+          previousRanking
+          ytdReferralCount
+        }
+      }
+      emailAddress
+      role
+      firstName
+      lastName
+      title
+      avatar {
+        bucket
+        region
+        key
+      }
+      departmentId
+      department {
+        id
+        companyId
+        name
+        active
+        totalUsers
+        userDepartments {
+          id
+          userId
+          departmentId
+        }
+      }
+      managedDepartments {
+        id
+        userId
+        departmentId
+      }
+      lastLogin
+      lastNotificationCheck
+      referrals {
+        id
+        companyId
+        contactId
+        userId
+        jobId
+        note
+        message
+        referralDate
+        hireDate
+      }
+      contacts {
+        id
+        firstName
+        lastName
+        emailAddress
+        socialMediaAccounts
+        referrals {
+          id
+          companyId
+          contactId
+          userId
+          jobId
+          note
+          message
+          referralDate
+          hireDate
+        }
+        userId
+        user {
+          id
+          cognitoId
+          companyId
+          emailAddress
+          firstName
+          lastName
+          title
+          departmentId
+          lastLogin
+          lastNotificationCheck
+          contacts {
+            id
+            firstName
+            lastName
+            emailAddress
+            socialMediaAccounts
+            userId
+            companyId
+            phoneNumber
+            jobHistory
+            fullContactData
+            dateCreated
+          }
+          totalReferrals
+          webNotifications {
+            id
+            userId
+            requestingUserId
+            contactId
+            referralId
+            jobId
+            matches
+            message
+            dateCreated
+          }
+          connectedApps
+          active
+          createdById
+          dateCreated
+          ranking
+          previousRanking
+          ytdReferralCount
+        }
+        companyId
+        company {
+          id
+          name
+          defaultBonusAmount
+          contactIncentiveBonus
+          websiteUrl
+          dateCreated
+          users {
+            id
+            cognitoId
+            companyId
+            emailAddress
+            firstName
+            lastName
+            title
+            departmentId
+            lastLogin
+            lastNotificationCheck
+            contacts {
+              id
+              firstName
+              lastName
+              emailAddress
+              socialMediaAccounts
+              userId
+              companyId
+              phoneNumber
+              jobHistory
+              fullContactData
+              dateCreated
+            }
+            totalReferrals
+            webNotifications {
+              id
+              userId
+              requestingUserId
+              contactId
+              referralId
+              jobId
+              matches
+              message
+              dateCreated
+            }
+            connectedApps
+            active
+            createdById
+            dateCreated
+            ranking
+            previousRanking
+            ytdReferralCount
+          }
+        }
+        phoneNumber
+        jobHistory
+        importMethod
+        fullContactData
+      
+        dateCreated
+      }
+      totalReferrals
+      webNotifications {
+        id
+        type
+        userId
+        user {
+          id
+          cognitoId
+          companyId
+          emailAddress
+          firstName
+          lastName
+          title
+          departmentId
+          lastLogin
+          lastNotificationCheck
+          contacts {
+            id
+            firstName
+            lastName
+            emailAddress
+            socialMediaAccounts
+            userId
+            companyId
+            phoneNumber
+            jobHistory
+            fullContactData
+            dateCreated
+          }
+          totalReferrals
+          webNotifications {
+            id
+            userId
+            requestingUserId
+            contactId
+            referralId
+            jobId
+            matches
+            message
+            dateCreated
+          }
+          connectedApps
+          active
+          createdById
+          dateCreated
+          ranking
+          previousRanking
+          ytdReferralCount
+        }
+        referralRequestedStatus
+        requestingUserId
+        requestingUser {
+          id
+          cognitoId
+          companyId
+          emailAddress
+          firstName
+          lastName
+          title
+          departmentId
+          lastLogin
+          lastNotificationCheck
+          contacts {
+            id
+            firstName
+            lastName
+            emailAddress
+            socialMediaAccounts
+            userId
+            companyId
+            phoneNumber
+            jobHistory
+            fullContactData
+            dateCreated
+          }
+          totalReferrals
+          webNotifications {
+            id
+            userId
+            requestingUserId
+            contactId
+            referralId
+            jobId
+            matches
+            message
+            dateCreated
+          }
+          connectedApps
+          active
+          createdById
+          dateCreated
+          ranking
+          previousRanking
+          ytdReferralCount
+        }
+        contactId
+        contact {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        referralId
+        referral {
+          id
+          companyId
+          contactId
+          userId
+          jobId
+          note
+          message
+          referralDate
+          hireDate
+        }
+        jobId
+        job {
+          id
+          companyId
+          departmentId
+          title
+          description
+          publicLink
+          salary
+          location
+          hiringManagerId
+          createdById
+          referralBonus
+          shares
+          views
+          referrals {
+            id
+            companyId
+            contactId
+            userId
+            jobId
+            note
+            message
+            referralDate
+            hireDate
+          }
+          matches {
+            id
+            firstName
+            lastName
+            emailAddress
+            socialMediaAccounts
+            userId
+            companyId
+            phoneNumber
+            jobHistory
+            fullContactData
+            dateCreated
+          }
+          dateCreated
+        }
+        matches
+        message
+        dateCreated
+      }
+      connectedApps
+      active
+      createdById
+      createdBy {
+        id
+        cognitoId
+        companyId
+        emailAddress
+        firstName
+        lastName
+        title
+        departmentId
+        lastLogin
+        lastNotificationCheck
+        contacts {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        totalReferrals
+        webNotifications {
+          id
+          userId
+          requestingUserId
+          contactId
+          referralId
+          jobId
+          matches
+          message
+          dateCreated
+        }
+        connectedApps
+        active
+        createdById
+        dateCreated
+        ranking
+        previousRanking
+        ytdReferralCount
+      }
+      dateCreated
+      ranking
+      previousRanking
+      ytdReferralCount
+    }
+    nextToken
+  }
+}
+`;
+export const getJob = `query GetJob($id: ID!) {
+  getJob(id: $id) {
+    id
+    companyId
+    company {
+      id
+      name
+      defaultBonusAmount
+      contactIncentiveBonus
+      websiteUrl
+      dateCreated
+      users {
+        id
+        cognitoId
+        companyId
+        emailAddress
+        firstName
+        lastName
+        title
+        departmentId
+        lastLogin
+        lastNotificationCheck
+        contacts {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        totalReferrals
+        webNotifications {
+          id
+          userId
+          requestingUserId
+          contactId
+          referralId
+          jobId
+          matches
+          message
+          dateCreated
+        }
+        connectedApps
+        active
+        createdById
+        dateCreated
+        ranking
+        previousRanking
+        ytdReferralCount
+      }
+    }
+    jobType
+    departmentId
+    department {
+      id
+      companyId
+      name
+      active
+      totalUsers
+      userDepartments {
+        id
+        userId
+        departmentId
+      }
+    }
+    title
+    description
+    publicLink
+    salary
+    location
+    hiringManagerId
+    hiringManager {
+      id
+      cognitoId
+      companyId
+      emailAddress
+      firstName
+      lastName
+      title
+      departmentId
+      lastLogin
+      lastNotificationCheck
+      contacts {
+        id
+        firstName
+        lastName
+        emailAddress
+        socialMediaAccounts
+        userId
+        companyId
+        phoneNumber
+        jobHistory
+        fullContactData
+        dateCreated
+      }
+      totalReferrals
+      webNotifications {
+        id
+        userId
+        requestingUserId
+        contactId
+        referralId
+        jobId
+        matches
+        message
+        dateCreated
+      }
+      connectedApps
+      active
+      createdById
+      dateCreated
+      ranking
+      previousRanking
+      ytdReferralCount
+    }
+    createdById
+    createdBy {
+      id
+      cognitoId
+      companyId
+      emailAddress
+      firstName
+      lastName
+      title
+      departmentId
+      lastLogin
+      lastNotificationCheck
+      contacts {
+        id
+        firstName
+        lastName
+        emailAddress
+        socialMediaAccounts
+        userId
+        companyId
+        phoneNumber
+        jobHistory
+        fullContactData
+        dateCreated
+      }
+      totalReferrals
+      webNotifications {
+        id
+        userId
+        requestingUserId
+        contactId
+        referralId
+        jobId
+        matches
+        message
+        dateCreated
+      }
+      connectedApps
+      active
+      createdById
+      dateCreated
+      ranking
+      previousRanking
+      ytdReferralCount
+    }
+    referralBonus
+    notificationType
+    status
+    shares
+    views
+    referrals {
+      id
+      companyId
+      company {
+        id
+        name
+        defaultBonusAmount
+        contactIncentiveBonus
+        websiteUrl
+        dateCreated
+        users {
+          id
+          cognitoId
+          companyId
+          emailAddress
+          firstName
+          lastName
+          title
+          departmentId
+          lastLogin
+          lastNotificationCheck
+          contacts {
+            id
+            firstName
+            lastName
+            emailAddress
+            socialMediaAccounts
+            userId
+            companyId
+            phoneNumber
+            jobHistory
+            fullContactData
+            dateCreated
+          }
+          totalReferrals
+          webNotifications {
+            id
+            userId
+            requestingUserId
+            contactId
+            referralId
+            jobId
+            matches
+            message
+            dateCreated
+          }
+          connectedApps
+          active
+          createdById
+          dateCreated
+          ranking
+          previousRanking
+          ytdReferralCount
+        }
+      }
+      contactId
+      contact {
+        id
+        firstName
+        lastName
+        emailAddress
+        socialMediaAccounts
+        userId
+        companyId
+        phoneNumber
+        jobHistory
+        fullContactData
+        dateCreated
+      }
+      userId
+      user {
+        id
+        cognitoId
+        companyId
+        emailAddress
+        firstName
+        lastName
+        title
+        departmentId
+        lastLogin
+        lastNotificationCheck
+        contacts {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        totalReferrals
+        webNotifications {
+          id
+          userId
+          requestingUserId
+          contactId
+          referralId
+          jobId
+          matches
+          message
+          dateCreated
+        }
+        connectedApps
+        active
+        createdById
+        dateCreated
+        ranking
+        previousRanking
+        ytdReferralCount
+      }
+      jobId
+      job {
+        id
+        companyId
+        departmentId
+        title
+        description
+        publicLink
+        salary
+        location
+        hiringManagerId
+        createdById
+        referralBonus
+        shares
+        views
+        referrals {
+          id
+          companyId
+          contactId
+          userId
+          jobId
+          note
+          message
+          referralDate
+          hireDate
+        }
+        matches {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        dateCreated
+      }
+      status
+      note
+      message
+      referralDate
+      hireDate
+    }
+    matches {
+      id
+      firstName
+      lastName
+      emailAddress
+      socialMediaAccounts
+      referrals {
+        id
+        companyId
+        contactId
+        userId
+        jobId
+        note
+        message
+        referralDate
+        hireDate
+      }
+      userId
+      user {
+        id
+        cognitoId
+        companyId
+        emailAddress
+        firstName
+        lastName
+        title
+        departmentId
+        lastLogin
+        lastNotificationCheck
+        contacts {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        totalReferrals
+        webNotifications {
+          id
+          userId
+          requestingUserId
+          contactId
+          referralId
+          jobId
+          matches
+          message
+          dateCreated
+        }
+        connectedApps
+        active
+        createdById
+        dateCreated
+        ranking
+        previousRanking
+        ytdReferralCount
+      }
+      companyId
+      company {
+        id
+        name
+        defaultBonusAmount
+        contactIncentiveBonus
+        websiteUrl
+        dateCreated
+        users {
+          id
+          cognitoId
+          companyId
+          emailAddress
+          firstName
+          lastName
+          title
+          departmentId
+          lastLogin
+          lastNotificationCheck
+          contacts {
+            id
+            firstName
+            lastName
+            emailAddress
+            socialMediaAccounts
+            userId
+            companyId
+            phoneNumber
+            jobHistory
+            fullContactData
+            dateCreated
+          }
+          totalReferrals
+          webNotifications {
+            id
+            userId
+            requestingUserId
+            contactId
+            referralId
+            jobId
+            matches
+            message
+            dateCreated
+          }
+          connectedApps
+          active
+          createdById
+          dateCreated
+          ranking
+          previousRanking
+          ytdReferralCount
+        }
+      }
+      phoneNumber
+      jobHistory
+      importMethod
+      fullContactData
+     
+      dateCreated
+    }
+    dateCreated
+  }
+}
+`;
+export const listJobs = `query ListJobs($filter: TableJobFilterInput, $limit: Int, $nextToken: String) {
+  listJobs(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      companyId
+      company {
+        id
+        name
+        defaultBonusAmount
+        contactIncentiveBonus
+        websiteUrl
+        dateCreated
+        users {
+          id
+          cognitoId
+          companyId
+          emailAddress
+          firstName
+          lastName
+          title
+          departmentId
+          lastLogin
+          lastNotificationCheck
+          contacts {
+            id
+            firstName
+            lastName
+            emailAddress
+            socialMediaAccounts
+            userId
+            companyId
+            phoneNumber
+            jobHistory
+            fullContactData
+            dateCreated
+          }
+          totalReferrals
+          webNotifications {
+            id
+            userId
+            requestingUserId
+            contactId
+            referralId
+            jobId
+            matches
+            message
+            dateCreated
+          }
+          connectedApps
+          active
+          createdById
+          dateCreated
+          ranking
+          previousRanking
+          ytdReferralCount
+        }
+      }
+      jobType
+      departmentId
+      department {
+        id
+        companyId
+        name
+        active
+        totalUsers
+        userDepartments {
+          id
+          userId
+          departmentId
+        }
+      }
+      title
+      description
+      publicLink
+      salary
+      location
+      hiringManagerId
+      hiringManager {
+        id
+        cognitoId
+        companyId
+        emailAddress
+        firstName
+        lastName
+        title
+        departmentId
+        lastLogin
+        lastNotificationCheck
+        contacts {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        totalReferrals
+        webNotifications {
+          id
+          userId
+          requestingUserId
+          contactId
+          referralId
+          jobId
+          matches
+          message
+          dateCreated
+        }
+        connectedApps
+        active
+        createdById
+        dateCreated
+        ranking
+        previousRanking
+        ytdReferralCount
+      }
+      createdById
+      createdBy {
+        id
+        cognitoId
+        companyId
+        emailAddress
+        firstName
+        lastName
+        title
+        departmentId
+        lastLogin
+        lastNotificationCheck
+        contacts {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        totalReferrals
+        webNotifications {
+          id
+          userId
+          requestingUserId
+          contactId
+          referralId
+          jobId
+          matches
+          message
+          dateCreated
+        }
+        connectedApps
+        active
+        createdById
+        dateCreated
+        ranking
+        previousRanking
+        ytdReferralCount
+      }
+      referralBonus
+      notificationType
+      status
+      shares
+      views
+      referrals {
+        id
+        companyId
+        company {
+          id
+          name
+          defaultBonusAmount
+          contactIncentiveBonus
+          websiteUrl
+          dateCreated
+          users {
+            id
+            cognitoId
+            companyId
+            emailAddress
+            firstName
+            lastName
+            title
+            departmentId
+            lastLogin
+            lastNotificationCheck
+            contacts {
+              id
+              firstName
+              lastName
+              emailAddress
+              socialMediaAccounts
+              userId
+              companyId
+              phoneNumber
+              jobHistory
+              fullContactData
+              dateCreated
+            }
+            totalReferrals
+            webNotifications {
+              id
+              userId
+              requestingUserId
+              contactId
+              referralId
+              jobId
+              matches
+              message
+              dateCreated
+            }
+            connectedApps
+            active
+            createdById
+            dateCreated
+            ranking
+            previousRanking
+            ytdReferralCount
+          }
+        }
+        contactId
+        contact {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        userId
+        user {
+          id
+          cognitoId
+          companyId
+          emailAddress
+          firstName
+          lastName
+          title
+          departmentId
+          lastLogin
+          lastNotificationCheck
+          contacts {
+            id
+            firstName
+            lastName
+            emailAddress
+            socialMediaAccounts
+            userId
+            companyId
+            phoneNumber
+            jobHistory
+            fullContactData
+            dateCreated
+          }
+          totalReferrals
+          webNotifications {
+            id
+            userId
+            requestingUserId
+            contactId
+            referralId
+            jobId
+            matches
+            message
+            dateCreated
+          }
+          connectedApps
+          active
+          createdById
+          dateCreated
+          ranking
+          previousRanking
+          ytdReferralCount
+        }
+        jobId
+        job {
+          id
+          companyId
+          departmentId
+          title
+          description
+          publicLink
+          salary
+          location
+          hiringManagerId
+          createdById
+          referralBonus
+          shares
+          views
+          referrals {
+            id
+            companyId
+            contactId
+            userId
+            jobId
+            note
+            message
+            referralDate
+            hireDate
+          }
+          matches {
+            id
+            firstName
+            lastName
+            emailAddress
+            socialMediaAccounts
+            userId
+            companyId
+            phoneNumber
+            jobHistory
+            fullContactData
+            dateCreated
+          }
+          dateCreated
+        }
+        status
+        note
+        message
+        referralDate
+        hireDate
+      }
+      matches {
+        id
+        firstName
+        lastName
+        emailAddress
+        socialMediaAccounts
+        referrals {
+          id
+          companyId
+          contactId
+          userId
+          jobId
+          note
+          message
+          referralDate
+          hireDate
+        }
+        userId
+        user {
+          id
+          cognitoId
+          companyId
+          emailAddress
+          firstName
+          lastName
+          title
+          departmentId
+          lastLogin
+          lastNotificationCheck
+          contacts {
+            id
+            firstName
+            lastName
+            emailAddress
+            socialMediaAccounts
+            userId
+            companyId
+            phoneNumber
+            jobHistory
+            fullContactData
+            dateCreated
+          }
+          totalReferrals
+          webNotifications {
+            id
+            userId
+            requestingUserId
+            contactId
+            referralId
+            jobId
+            matches
+            message
+            dateCreated
+          }
+          connectedApps
+          active
+          createdById
+          dateCreated
+          ranking
+          previousRanking
+          ytdReferralCount
+        }
+        companyId
+        company {
+          id
+          name
+          defaultBonusAmount
+          contactIncentiveBonus
+          websiteUrl
+          dateCreated
+          users {
+            id
+            cognitoId
+            companyId
+            emailAddress
+            firstName
+            lastName
+            title
+            departmentId
+            lastLogin
+            lastNotificationCheck
+            contacts {
+              id
+              firstName
+              lastName
+              emailAddress
+              socialMediaAccounts
+              userId
+              companyId
+              phoneNumber
+              jobHistory
+              fullContactData
+              dateCreated
+            }
+            totalReferrals
+            webNotifications {
+              id
+              userId
+              requestingUserId
+              contactId
+              referralId
+              jobId
+              matches
+              message
+              dateCreated
+            }
+            connectedApps
+            active
+            createdById
+            dateCreated
+            ranking
+            previousRanking
+            ytdReferralCount
+          }
+        }
+        phoneNumber
+        jobHistory
+        importMethod
+        fullContactData
+     
+        dateCreated
+      }
+      dateCreated
+    }
+    nextToken
+  }
+}
+`;
+export const queryJobsByCompanyIdTitleIndex = `query QueryJobsByCompanyIdTitleIndex(
+  $companyId: ID!
+  $title: String!
+  $first: Int
+  $after: String
+) {
+  queryJobsByCompanyIdTitleIndex(
+    companyId: $companyId
+    title: $title
+    first: $first
+    after: $after
+  ) {
+    items {
+      id
+      companyId
+      company {
+        id
+        name
+        defaultBonusAmount
+        contactIncentiveBonus
+        websiteUrl
+        dateCreated
+        users {
+          id
+          cognitoId
+          companyId
+          emailAddress
+          firstName
+          lastName
+          title
+          departmentId
+          lastLogin
+          lastNotificationCheck
+          contacts {
+            id
+            firstName
+            lastName
+            emailAddress
+            socialMediaAccounts
+            userId
+            companyId
+            phoneNumber
+            jobHistory
+            fullContactData
+            dateCreated
+          }
+          totalReferrals
+          webNotifications {
+            id
+            userId
+            requestingUserId
+            contactId
+            referralId
+            jobId
+            matches
+            message
+            dateCreated
+          }
+          connectedApps
+          active
+          createdById
+          dateCreated
+          ranking
+          previousRanking
+          ytdReferralCount
+        }
+      }
+      jobType
+      departmentId
+      department {
+        id
+        companyId
+        name
+        active
+        totalUsers
+        userDepartments {
+          id
+          userId
+          departmentId
+        }
+      }
+      title
+      description
+      publicLink
+      salary
+      location
+      hiringManagerId
+      hiringManager {
+        id
+        cognitoId
+        companyId
+        emailAddress
+        firstName
+        lastName
+        title
+        departmentId
+        lastLogin
+        lastNotificationCheck
+        contacts {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        totalReferrals
+        webNotifications {
+          id
+          userId
+          requestingUserId
+          contactId
+          referralId
+          jobId
+          matches
+          message
+          dateCreated
+        }
+        connectedApps
+        active
+        createdById
+        dateCreated
+        ranking
+        previousRanking
+        ytdReferralCount
+      }
+      createdById
+      createdBy {
+        id
+        cognitoId
+        companyId
+        emailAddress
+        firstName
+        lastName
+        title
+        departmentId
+        lastLogin
+        lastNotificationCheck
+        contacts {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        totalReferrals
+        webNotifications {
+          id
+          userId
+          requestingUserId
+          contactId
+          referralId
+          jobId
+          matches
+          message
+          dateCreated
+        }
+        connectedApps
+        active
+        createdById
+        dateCreated
+        ranking
+        previousRanking
+        ytdReferralCount
+      }
+      referralBonus
+      notificationType
+      status
+      shares
+      views
+      referrals {
+        id
+        companyId
+        company {
+          id
+          name
+          defaultBonusAmount
+          contactIncentiveBonus
+          websiteUrl
+          dateCreated
+          users {
+            id
+            cognitoId
+            companyId
+            emailAddress
+            firstName
+            lastName
+            title
+            departmentId
+            lastLogin
+            lastNotificationCheck
+            contacts {
+              id
+              firstName
+              lastName
+              emailAddress
+              socialMediaAccounts
+              userId
+              companyId
+              phoneNumber
+              jobHistory
+              fullContactData
+              dateCreated
+            }
+            totalReferrals
+            webNotifications {
+              id
+              userId
+              requestingUserId
+              contactId
+              referralId
+              jobId
+              matches
+              message
+              dateCreated
+            }
+            connectedApps
+            active
+            createdById
+            dateCreated
+            ranking
+            previousRanking
+            ytdReferralCount
+          }
+        }
+        contactId
+        contact {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        userId
+        user {
+          id
+          cognitoId
+          companyId
+          emailAddress
+          firstName
+          lastName
+          title
+          departmentId
+          lastLogin
+          lastNotificationCheck
+          contacts {
+            id
+            firstName
+            lastName
+            emailAddress
+            socialMediaAccounts
+            userId
+            companyId
+            phoneNumber
+            jobHistory
+            fullContactData
+            dateCreated
+          }
+          totalReferrals
+          webNotifications {
+            id
+            userId
+            requestingUserId
+            contactId
+            referralId
+            jobId
+            matches
+            message
+            dateCreated
+          }
+          connectedApps
+          active
+          createdById
+          dateCreated
+          ranking
+          previousRanking
+          ytdReferralCount
+        }
+        jobId
+        job {
+          id
+          companyId
+          departmentId
+          title
+          description
+          publicLink
+          salary
+          location
+          hiringManagerId
+          createdById
+          referralBonus
+          shares
+          views
+          referrals {
+            id
+            companyId
+            contactId
+            userId
+            jobId
+            note
+            message
+            referralDate
+            hireDate
+          }
+          matches {
+            id
+            firstName
+            lastName
+            emailAddress
+            socialMediaAccounts
+            userId
+            companyId
+            phoneNumber
+            jobHistory
+            fullContactData
+            dateCreated
+          }
+          dateCreated
+        }
+        status
+        note
+        message
+        referralDate
+        hireDate
+      }
+      matches {
+        id
+        firstName
+        lastName
+        emailAddress
+        socialMediaAccounts
+        referrals {
+          id
+          companyId
+          contactId
+          userId
+          jobId
+          note
+          message
+          referralDate
+          hireDate
+        }
+        userId
+        user {
+          id
+          cognitoId
+          companyId
+          emailAddress
+          firstName
+          lastName
+          title
+          departmentId
+          lastLogin
+          lastNotificationCheck
+          contacts {
+            id
+            firstName
+            lastName
+            emailAddress
+            socialMediaAccounts
+            userId
+            companyId
+            phoneNumber
+            jobHistory
+            fullContactData
+            dateCreated
+          }
+          totalReferrals
+          webNotifications {
+            id
+            userId
+            requestingUserId
+            contactId
+            referralId
+            jobId
+            matches
+            message
+            dateCreated
+          }
+          connectedApps
+          active
+          createdById
+          dateCreated
+          ranking
+          previousRanking
+          ytdReferralCount
+        }
+        companyId
+        company {
+          id
+          name
+          defaultBonusAmount
+          contactIncentiveBonus
+          websiteUrl
+          dateCreated
+          users {
+            id
+            cognitoId
+            companyId
+            emailAddress
+            firstName
+            lastName
+            title
+            departmentId
+            lastLogin
+            lastNotificationCheck
+            contacts {
+              id
+              firstName
+              lastName
+              emailAddress
+              socialMediaAccounts
+              userId
+              companyId
+              phoneNumber
+              jobHistory
+              fullContactData
+              dateCreated
+            }
+            totalReferrals
+            webNotifications {
+              id
+              userId
+              requestingUserId
+              contactId
+              referralId
+              jobId
+              matches
+              message
+              dateCreated
+            }
+            connectedApps
+            active
+            createdById
+            dateCreated
+            ranking
+            previousRanking
+            ytdReferralCount
+          }
+        }
+        phoneNumber
+        jobHistory
+        importMethod
+        fullContactData
+       
+        dateCreated
+      }
+      dateCreated
+    }
+    nextToken
+  }
+}
+`;
+export const queryJobsByDescriptionIndex = `query QueryJobsByDescriptionIndex(
+  $description: String!
+  $first: Int
+  $after: String
+) {
+  queryJobsByDescriptionIndex(
+    description: $description
+    first: $first
+    after: $after
+  ) {
+    items {
+      id
+      companyId
+      company {
+        id
+        name
+        defaultBonusAmount
+        contactIncentiveBonus
+        websiteUrl
+        dateCreated
+        users {
+          id
+          cognitoId
+          companyId
+          emailAddress
+          firstName
+          lastName
+          title
+          departmentId
+          lastLogin
+          lastNotificationCheck
+          contacts {
+            id
+            firstName
+            lastName
+            emailAddress
+            socialMediaAccounts
+            userId
+            companyId
+            phoneNumber
+            jobHistory
+            fullContactData
+            dateCreated
+          }
+          totalReferrals
+          webNotifications {
+            id
+            userId
+            requestingUserId
+            contactId
+            referralId
+            jobId
+            matches
+            message
+            dateCreated
+          }
+          connectedApps
+          active
+          createdById
+          dateCreated
+          ranking
+          previousRanking
+          ytdReferralCount
+        }
+      }
+      jobType
+      departmentId
+      department {
+        id
+        companyId
+        name
+        active
+        totalUsers
+        userDepartments {
+          id
+          userId
+          departmentId
+        }
+      }
+      title
+      description
+      publicLink
+      salary
+      location
+      hiringManagerId
+      hiringManager {
+        id
+        cognitoId
+        companyId
+        emailAddress
+        firstName
+        lastName
+        title
+        departmentId
+        lastLogin
+        lastNotificationCheck
+        contacts {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        totalReferrals
+        webNotifications {
+          id
+          userId
+          requestingUserId
+          contactId
+          referralId
+          jobId
+          matches
+          message
+          dateCreated
+        }
+        connectedApps
+        active
+        createdById
+        dateCreated
+        ranking
+        previousRanking
+        ytdReferralCount
+      }
+      createdById
+      createdBy {
+        id
+        cognitoId
+        companyId
+        emailAddress
+        firstName
+        lastName
+        title
+        departmentId
+        lastLogin
+        lastNotificationCheck
+        contacts {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        totalReferrals
+        webNotifications {
+          id
+          userId
+          requestingUserId
+          contactId
+          referralId
+          jobId
+          matches
+          message
+          dateCreated
+        }
+        connectedApps
+        active
+        createdById
+        dateCreated
+        ranking
+        previousRanking
+        ytdReferralCount
+      }
+      referralBonus
+      notificationType
+      status
+      shares
+      views
+      referrals {
+        id
+        companyId
+        company {
+          id
+          name
+          defaultBonusAmount
+          contactIncentiveBonus
+          websiteUrl
+          dateCreated
+          users {
+            id
+            cognitoId
+            companyId
+            emailAddress
+            firstName
+            lastName
+            title
+            departmentId
+            lastLogin
+            lastNotificationCheck
+            contacts {
+              id
+              firstName
+              lastName
+              emailAddress
+              socialMediaAccounts
+              userId
+              companyId
+              phoneNumber
+              jobHistory
+              fullContactData
+              dateCreated
+            }
+            totalReferrals
+            webNotifications {
+              id
+              userId
+              requestingUserId
+              contactId
+              referralId
+              jobId
+              matches
+              message
+              dateCreated
+            }
+            connectedApps
+            active
+            createdById
+            dateCreated
+            ranking
+            previousRanking
+            ytdReferralCount
+          }
+        }
+        contactId
+        contact {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        userId
+        user {
+          id
+          cognitoId
+          companyId
+          emailAddress
+          firstName
+          lastName
+          title
+          departmentId
+          lastLogin
+          lastNotificationCheck
+          contacts {
+            id
+            firstName
+            lastName
+            emailAddress
+            socialMediaAccounts
+            userId
+            companyId
+            phoneNumber
+            jobHistory
+            fullContactData
+            dateCreated
+          }
+          totalReferrals
+          webNotifications {
+            id
+            userId
+            requestingUserId
+            contactId
+            referralId
+            jobId
+            matches
+            message
+            dateCreated
+          }
+          connectedApps
+          active
+          createdById
+          dateCreated
+          ranking
+          previousRanking
+          ytdReferralCount
+        }
+        jobId
+        job {
+          id
+          companyId
+          departmentId
+          title
+          description
+          publicLink
+          salary
+          location
+          hiringManagerId
+          createdById
+          referralBonus
+          shares
+          views
+          referrals {
+            id
+            companyId
+            contactId
+            userId
+            jobId
+            note
+            message
+            referralDate
+            hireDate
+          }
+          matches {
+            id
+            firstName
+            lastName
+            emailAddress
+            socialMediaAccounts
+            userId
+            companyId
+            phoneNumber
+            jobHistory
+            fullContactData
+            dateCreated
+          }
+          dateCreated
+        }
+        status
+        note
+        message
+        referralDate
+        hireDate
+      }
+      matches {
+        id
+        firstName
+        lastName
+        emailAddress
+        socialMediaAccounts
+        referrals {
+          id
+          companyId
+          contactId
+          userId
+          jobId
+          note
+          message
+          referralDate
+          hireDate
+        }
+        userId
+        user {
+          id
+          cognitoId
+          companyId
+          emailAddress
+          firstName
+          lastName
+          title
+          departmentId
+          lastLogin
+          lastNotificationCheck
+          contacts {
+            id
+            firstName
+            lastName
+            emailAddress
+            socialMediaAccounts
+            userId
+            companyId
+            phoneNumber
+            jobHistory
+            fullContactData
+            dateCreated
+          }
+          totalReferrals
+          webNotifications {
+            id
+            userId
+            requestingUserId
+            contactId
+            referralId
+            jobId
+            matches
+            message
+            dateCreated
+          }
+          connectedApps
+          active
+          createdById
+          dateCreated
+          ranking
+          previousRanking
+          ytdReferralCount
+        }
+        companyId
+        company {
+          id
+          name
+          defaultBonusAmount
+          contactIncentiveBonus
+          websiteUrl
+          dateCreated
+          users {
+            id
+            cognitoId
+            companyId
+            emailAddress
+            firstName
+            lastName
+            title
+            departmentId
+            lastLogin
+            lastNotificationCheck
+            contacts {
+              id
+              firstName
+              lastName
+              emailAddress
+              socialMediaAccounts
+              userId
+              companyId
+              phoneNumber
+              jobHistory
+              fullContactData
+              dateCreated
+            }
+            totalReferrals
+            webNotifications {
+              id
+              userId
+              requestingUserId
+              contactId
+              referralId
+              jobId
+              matches
+              message
+              dateCreated
+            }
+            connectedApps
+            active
+            createdById
+            dateCreated
+            ranking
+            previousRanking
+            ytdReferralCount
+          }
+        }
+        phoneNumber
+        jobHistory
+        importMethod
+        fullContactData
+      
+        dateCreated
+      }
+      dateCreated
+    }
+    nextToken
+  }
+}
+`;
+export const getContact = `query GetContact($id: ID!) {
+  getContact(id: $id) {
+    id
+    firstName
+    lastName
+    emailAddress
+    socialMediaAccounts
+    referrals {
+      id
+      companyId
+      contactId
+      userId
+      jobId
+      note
+      message
+      referralDate
+      hireDate
+    }
+    userId
+    user {
+      id
+      cognitoId
+      companyId
+      emailAddress
+      firstName
+      lastName
+      title
+      departmentId
+      lastLogin
+      lastNotificationCheck
+      contacts {
+        id
+        firstName
+        lastName
+        emailAddress
+        socialMediaAccounts
+        userId
+        companyId
+        phoneNumber
+        jobHistory
+        fullContactData
+        dateCreated
+      }
+      totalReferrals
+      webNotifications {
+        id
+        userId
+        requestingUserId
+        contactId
+        referralId
+        jobId
+        matches
+        message
+        dateCreated
+      }
+      connectedApps
+      active
+      createdById
+      dateCreated
+      ranking
+      previousRanking
+      ytdReferralCount
+    }
+    companyId
+    company {
+      id
+      name
+      defaultBonusAmount
+      contactIncentiveBonus
+      websiteUrl
+      dateCreated
+      users {
+        id
+        cognitoId
+        companyId
+        emailAddress
+        firstName
+        lastName
+        title
+        departmentId
+        lastLogin
+        lastNotificationCheck
+        contacts {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        totalReferrals
+        webNotifications {
+          id
+          userId
+          requestingUserId
+          contactId
+          referralId
+          jobId
+          matches
+          message
+          dateCreated
+        }
+        connectedApps
+        active
+        createdById
+        dateCreated
+        ranking
+        previousRanking
+        ytdReferralCount
+      }
+    }
+    phoneNumber
+    jobHistory
+    importMethod
+    fullContactData
+   
+    dateCreated
+  }
+}
+`;
+export const listContacts = `query ListContacts(
+  $filter: TableContactFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listContacts(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      firstName
+      lastName
+      emailAddress
+      socialMediaAccounts
+      referrals {
+        id
+        companyId
+        contactId
+        userId
+        jobId
+        note
+        message
+        referralDate
+        hireDate
+      }
+      userId
+      user {
+        id
+        cognitoId
+        companyId
+        emailAddress
+        firstName
+        lastName
+        title
+        departmentId
+        lastLogin
+        lastNotificationCheck
+        contacts {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        totalReferrals
+        webNotifications {
+          id
+          userId
+          requestingUserId
+          contactId
+          referralId
+          jobId
+          matches
+          message
+          dateCreated
+        }
+        connectedApps
+        active
+        createdById
+        dateCreated
+        ranking
+        previousRanking
+        ytdReferralCount
+      }
+      companyId
+      company {
+        id
+        name
+        defaultBonusAmount
+        contactIncentiveBonus
+        websiteUrl
+        dateCreated
+        users {
+          id
+          cognitoId
+          companyId
+          emailAddress
+          firstName
+          lastName
+          title
+          departmentId
+          lastLogin
+          lastNotificationCheck
+          contacts {
+            id
+            firstName
+            lastName
+            emailAddress
+            socialMediaAccounts
+            userId
+            companyId
+            phoneNumber
+            jobHistory
+            fullContactData
+            dateCreated
+          }
+          totalReferrals
+          webNotifications {
+            id
+            userId
+            requestingUserId
+            contactId
+            referralId
+            jobId
+            matches
+            message
+            dateCreated
+          }
+          connectedApps
+          active
+          createdById
+          dateCreated
+          ranking
+          previousRanking
+          ytdReferralCount
+        }
+      }
+      phoneNumber
+      jobHistory
+      importMethod
+      fullContactData
+    
+      dateCreated
+    }
+    nextToken
+  }
+}
+`;
+export const queryContactsByEmailAddressIndex = `query QueryContactsByEmailAddressIndex(
+  $emailAddress: AWSEmail!
+  $first: Int
+  $after: String
+) {
+  queryContactsByEmailAddressIndex(
+    emailAddress: $emailAddress
+    first: $first
+    after: $after
+  ) {
+    items {
+      id
+      firstName
+      lastName
+      emailAddress
+      socialMediaAccounts
+      referrals {
+        id
+        companyId
+        contactId
+        userId
+        jobId
+        note
+        message
+        referralDate
+        hireDate
+      }
+      userId
+      user {
+        id
+        cognitoId
+        companyId
+        emailAddress
+        firstName
+        lastName
+        title
+        departmentId
+        lastLogin
+        lastNotificationCheck
+        contacts {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        totalReferrals
+        webNotifications {
+          id
+          userId
+          requestingUserId
+          contactId
+          referralId
+          jobId
+          matches
+          message
+          dateCreated
+        }
+        connectedApps
+        active
+        createdById
+        dateCreated
+        ranking
+        previousRanking
+        ytdReferralCount
+      }
+      companyId
+      company {
+        id
+        name
+        defaultBonusAmount
+        contactIncentiveBonus
+        websiteUrl
+        dateCreated
+        users {
+          id
+          cognitoId
+          companyId
+          emailAddress
+          firstName
+          lastName
+          title
+          departmentId
+          lastLogin
+          lastNotificationCheck
+          contacts {
+            id
+            firstName
+            lastName
+            emailAddress
+            socialMediaAccounts
+            userId
+            companyId
+            phoneNumber
+            jobHistory
+            fullContactData
+            dateCreated
+          }
+          totalReferrals
+          webNotifications {
+            id
+            userId
+            requestingUserId
+            contactId
+            referralId
+            jobId
+            matches
+            message
+            dateCreated
+          }
+          connectedApps
+          active
+          createdById
+          dateCreated
+          ranking
+          previousRanking
+          ytdReferralCount
+        }
+      }
+      phoneNumber
+      jobHistory
+      importMethod
+      fullContactData
+    
+      dateCreated
+    }
+    nextToken
+  }
+}
+`;
+export const getReferral = `query GetReferral($id: ID!) {
+  getReferral(id: $id) {
+    id
+    companyId
+    company {
+      id
+      name
+      defaultBonusAmount
+      contactIncentiveBonus
+      websiteUrl
+      dateCreated
+      users {
+        id
+        cognitoId
+        companyId
+        emailAddress
+        firstName
+        lastName
+        title
+        departmentId
+        lastLogin
+        lastNotificationCheck
+        contacts {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        totalReferrals
+        webNotifications {
+          id
+          userId
+          requestingUserId
+          contactId
+          referralId
+          jobId
+          matches
+          message
+          dateCreated
+        }
+        connectedApps
+        active
+        createdById
+        dateCreated
+        ranking
+        previousRanking
+        ytdReferralCount
+      }
+    }
+    contactId
+    contact {
+      id
+      firstName
+      lastName
+      emailAddress
+      socialMediaAccounts
+      userId
+      companyId
+      phoneNumber
+      jobHistory
+      fullContactData
+      dateCreated
+    }
+    userId
+    user {
+      id
+      cognitoId
+      companyId
+      emailAddress
+      firstName
+      lastName
+      title
+      departmentId
+      lastLogin
+      lastNotificationCheck
+      contacts {
+        id
+        firstName
+        lastName
+        emailAddress
+        socialMediaAccounts
+        userId
+        companyId
+        phoneNumber
+        jobHistory
+        fullContactData
+        dateCreated
+      }
+      totalReferrals
+      webNotifications {
+        id
+        userId
+        requestingUserId
+        contactId
+        referralId
+        jobId
+        matches
+        message
+        dateCreated
+      }
+      connectedApps
+      active
+      createdById
+      dateCreated
+      ranking
+      previousRanking
+      ytdReferralCount
+    }
+    jobId
+    job {
+      id
+      companyId
+      departmentId
+      title
+      description
+      publicLink
+      salary
+      location
+      hiringManagerId
+      createdById
+      referralBonus
+      shares
+      views
+      referrals {
+        id
+        companyId
+        contactId
+        userId
+        jobId
+        note
+        message
+        referralDate
+        hireDate
+      }
+      matches {
+        id
+        firstName
+        lastName
+        emailAddress
+        socialMediaAccounts
+        userId
+        companyId
+        phoneNumber
+        jobHistory
+        fullContactData
+        dateCreated
+      }
+      dateCreated
+    }
+    status
+    note
+    message
+    referralDate
+    hireDate
+  }
+}
+`;
+export const listReferrals = `query ListReferrals(
+  $filter: TableReferralFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listReferrals(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      companyId
+      company {
+        id
+        name
+        defaultBonusAmount
+        contactIncentiveBonus
+        websiteUrl
+        dateCreated
+        users {
+          id
+          cognitoId
+          companyId
+          emailAddress
+          firstName
+          lastName
+          title
+          departmentId
+          lastLogin
+          lastNotificationCheck
+          contacts {
+            id
+            firstName
+            lastName
+            emailAddress
+            socialMediaAccounts
+            userId
+            companyId
+            phoneNumber
+            jobHistory
+            fullContactData
+            dateCreated
+          }
+          totalReferrals
+          webNotifications {
+            id
+            userId
+            requestingUserId
+            contactId
+            referralId
+            jobId
+            matches
+            message
+            dateCreated
+          }
+          connectedApps
+          active
+          createdById
+          dateCreated
+          ranking
+          previousRanking
+          ytdReferralCount
+        }
+      }
+      contactId
+      contact {
+        id
+        firstName
+        lastName
+        emailAddress
+        socialMediaAccounts
+        userId
+        companyId
+        phoneNumber
+        jobHistory
+        fullContactData
+        dateCreated
+      }
+      userId
+      user {
+        id
+        cognitoId
+        companyId
+        emailAddress
+        firstName
+        lastName
+        title
+        departmentId
+        lastLogin
+        lastNotificationCheck
+        contacts {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        totalReferrals
+        webNotifications {
+          id
+          userId
+          requestingUserId
+          contactId
+          referralId
+          jobId
+          matches
+          message
+          dateCreated
+        }
+        connectedApps
+        active
+        createdById
+        dateCreated
+        ranking
+        previousRanking
+        ytdReferralCount
+      }
+      jobId
+      job {
+        id
+        companyId
+        departmentId
+        title
+        description
+        publicLink
+        salary
+        location
+        hiringManagerId
+        createdById
+        referralBonus
+        shares
+        views
+        referrals {
+          id
+          companyId
+          contactId
+          userId
+          jobId
+          note
+          message
+          referralDate
+          hireDate
+        }
+        matches {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        dateCreated
+      }
+      status
+      note
+      message
+      referralDate
+      hireDate
+    }
+    nextToken
+  }
+}
+`;
+export const queryReferralsByJobIdIndex = `query QueryReferralsByJobIdIndex($jobId: ID!, $first: Int, $after: String) {
+  queryReferralsByJobIdIndex(jobId: $jobId, first: $first, after: $after) {
+    items {
+      id
+      companyId
+      company {
+        id
+        name
+        defaultBonusAmount
+        contactIncentiveBonus
+        websiteUrl
+        dateCreated
+        users {
+          id
+          cognitoId
+          companyId
+          emailAddress
+          firstName
+          lastName
+          title
+          departmentId
+          lastLogin
+          lastNotificationCheck
+          contacts {
+            id
+            firstName
+            lastName
+            emailAddress
+            socialMediaAccounts
+            userId
+            companyId
+            phoneNumber
+            jobHistory
+            fullContactData
+            dateCreated
+          }
+          totalReferrals
+          webNotifications {
+            id
+            userId
+            requestingUserId
+            contactId
+            referralId
+            jobId
+            matches
+            message
+            dateCreated
+          }
+          connectedApps
+          active
+          createdById
+          dateCreated
+          ranking
+          previousRanking
+          ytdReferralCount
+        }
+      }
+      contactId
+      contact {
+        id
+        firstName
+        lastName
+        emailAddress
+        socialMediaAccounts
+        userId
+        companyId
+        phoneNumber
+        jobHistory
+        fullContactData
+        dateCreated
+      }
+      userId
+      user {
+        id
+        cognitoId
+        companyId
+        emailAddress
+        firstName
+        lastName
+        title
+        departmentId
+        lastLogin
+        lastNotificationCheck
+        contacts {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        totalReferrals
+        webNotifications {
+          id
+          userId
+          requestingUserId
+          contactId
+          referralId
+          jobId
+          matches
+          message
+          dateCreated
+        }
+        connectedApps
+        active
+        createdById
+        dateCreated
+        ranking
+        previousRanking
+        ytdReferralCount
+      }
+      jobId
+      job {
+        id
+        companyId
+        departmentId
+        title
+        description
+        publicLink
+        salary
+        location
+        hiringManagerId
+        createdById
+        referralBonus
+        shares
+        views
+        referrals {
+          id
+          companyId
+          contactId
+          userId
+          jobId
+          note
+          message
+          referralDate
+          hireDate
+        }
+        matches {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        dateCreated
+      }
+      status
+      note
+      message
+      referralDate
+      hireDate
+    }
+    nextToken
+  }
+}
+`;
+export const getTopReferrers = `query GetTopReferrers($companyId: ID!) {
+  getTopReferrers(companyId: $companyId) {
+    id
+    cognitoId
+    companyId
+    company {
+      id
+      name
+      defaultBonusAmount
+      contactIncentiveBonus
+      websiteUrl
+      dateCreated
+      users {
+        id
+        cognitoId
+        companyId
+        emailAddress
+        firstName
+        lastName
+        title
+        departmentId
+        lastLogin
+        lastNotificationCheck
+        contacts {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        totalReferrals
+        webNotifications {
+          id
+          userId
+          requestingUserId
+          contactId
+          referralId
+          jobId
+          matches
+          message
+          dateCreated
+        }
+        connectedApps
+        active
+        createdById
+        dateCreated
+        ranking
+        previousRanking
+        ytdReferralCount
+      }
+    }
+    emailAddress
+    role
+    firstName
+    lastName
+    title
+    avatar {
+      bucket
+      region
+      key
+    }
+    departmentId
+    department {
+      id
+      companyId
+      name
+      active
+      totalUsers
+      userDepartments {
+        id
+        userId
+        departmentId
+      }
+    }
+    managedDepartments {
+      id
+      userId
+      departmentId
+    }
+    lastLogin
+    lastNotificationCheck
+    referrals {
+      id
+      companyId
+      contactId
+      userId
+      jobId
+      note
+      message
+      referralDate
+      hireDate
+    }
+    contacts {
+      id
+      firstName
+      lastName
+      emailAddress
+      socialMediaAccounts
+      referrals {
+        id
+        companyId
+        contactId
+        userId
+        jobId
+        note
+        message
+        referralDate
+        hireDate
+      }
+      userId
+      user {
+        id
+        cognitoId
+        companyId
+        emailAddress
+        firstName
+        lastName
+        title
+        departmentId
+        lastLogin
+        lastNotificationCheck
+        contacts {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        totalReferrals
+        webNotifications {
+          id
+          userId
+          requestingUserId
+          contactId
+          referralId
+          jobId
+          matches
+          message
+          dateCreated
+        }
+        connectedApps
+        active
+        createdById
+        dateCreated
+        ranking
+        previousRanking
+        ytdReferralCount
+      }
+      companyId
+      company {
+        id
+        name
+        defaultBonusAmount
+        contactIncentiveBonus
+        websiteUrl
+        dateCreated
+        users {
+          id
+          cognitoId
+          companyId
+          emailAddress
+          firstName
+          lastName
+          title
+          departmentId
+          lastLogin
+          lastNotificationCheck
+          contacts {
+            id
+            firstName
+            lastName
+            emailAddress
+            socialMediaAccounts
+            userId
+            companyId
+            phoneNumber
+            jobHistory
+            fullContactData
+            dateCreated
+          }
+          totalReferrals
+          webNotifications {
+            id
+            userId
+            requestingUserId
+            contactId
+            referralId
+            jobId
+            matches
+            message
+            dateCreated
+          }
+          connectedApps
+          active
+          createdById
+          dateCreated
+          ranking
+          previousRanking
+          ytdReferralCount
+        }
+      }
+      phoneNumber
+      jobHistory
+      importMethod
+      fullContactData
+     
+      dateCreated
+    }
+    totalReferrals
+    webNotifications {
+      id
+      type
+      userId
+      user {
+        id
+        cognitoId
+        companyId
+        emailAddress
+        firstName
+        lastName
+        title
+        departmentId
+        lastLogin
+        lastNotificationCheck
+        contacts {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        totalReferrals
+        webNotifications {
+          id
+          userId
+          requestingUserId
+          contactId
+          referralId
+          jobId
+          matches
+          message
+          dateCreated
+        }
+        connectedApps
+        active
+        createdById
+        dateCreated
+        ranking
+        previousRanking
+        ytdReferralCount
+      }
+      referralRequestedStatus
+      requestingUserId
+      requestingUser {
+        id
+        cognitoId
+        companyId
+        emailAddress
+        firstName
+        lastName
+        title
+        departmentId
+        lastLogin
+        lastNotificationCheck
+        contacts {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        totalReferrals
+        webNotifications {
+          id
+          userId
+          requestingUserId
+          contactId
+          referralId
+          jobId
+          matches
+          message
+          dateCreated
+        }
+        connectedApps
+        active
+        createdById
+        dateCreated
+        ranking
+        previousRanking
+        ytdReferralCount
+      }
+      contactId
+      contact {
+        id
+        firstName
+        lastName
+        emailAddress
+        socialMediaAccounts
+        userId
+        companyId
+        phoneNumber
+        jobHistory
+        fullContactData
+        dateCreated
+      }
+      referralId
+      referral {
+        id
+        companyId
+        contactId
+        userId
+        jobId
+        note
+        message
+        referralDate
+        hireDate
+      }
+      jobId
+      job {
+        id
+        companyId
+        departmentId
+        title
+        description
+        publicLink
+        salary
+        location
+        hiringManagerId
+        createdById
+        referralBonus
+        shares
+        views
+        referrals {
+          id
+          companyId
+          contactId
+          userId
+          jobId
+          note
+          message
+          referralDate
+          hireDate
+        }
+        matches {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        dateCreated
+      }
+      matches
+      message
+      dateCreated
+    }
+    connectedApps
+    active
+    createdById
+    createdBy {
+      id
+      cognitoId
+      companyId
+      emailAddress
+      firstName
+      lastName
+      title
+      departmentId
+      lastLogin
+      lastNotificationCheck
+      contacts {
+        id
+        firstName
+        lastName
+        emailAddress
+        socialMediaAccounts
+        userId
+        companyId
+        phoneNumber
+        jobHistory
+        fullContactData
+        dateCreated
+      }
+      totalReferrals
+      webNotifications {
+        id
+        userId
+        requestingUserId
+        contactId
+        referralId
+        jobId
+        matches
+        message
+        dateCreated
+      }
+      connectedApps
+      active
+      createdById
+      dateCreated
+      ranking
+      previousRanking
+      ytdReferralCount
+    }
+    dateCreated
+    ranking
+    previousRanking
+    ytdReferralCount
+  }
+}
+`;
+export const getBusinessNetwork = `query GetBusinessNetwork($companyId: ID!) {
+  getBusinessNetwork(companyId: $companyId) {
+    activeEmployees
+    businessConnections
+    firstConnections
+    inNetworkConnections
+  }
+}
+`;
+export const getDashboardJobs = `query GetDashboardJobs($companyId: ID!, $userId: ID) {
+  getDashboardJobs(companyId: $companyId, userId: $userId) {
+    openPositions
+    inNetworkMatches
+    jobShares
+    totalJobViews
+  }
+}
+`;
+export const getDashboardReferrals = `query GetDashboardReferrals(
+  $companyId: ID!
+  $status: ReferralStatus
+  $userId: ID
+) {
+  getDashboardReferrals(
+    companyId: $companyId
+    status: $status
+    userId: $userId
+  ) {
+    currentReferralCount
+    previousReferralCount
+  }
+}
+`;
+export const getUserDepartment = `query GetUserDepartment($userId: ID!, $departmentId: ID!) {
+  getUserDepartment(userId: $userId, departmentId: $departmentId) {
+    id
+    userId
+    user {
+      id
+      cognitoId
+      companyId
+      emailAddress
+      firstName
+      lastName
+      title
+      departmentId
+      lastLogin
+      lastNotificationCheck
+      contacts {
+        id
+        firstName
+        lastName
+        emailAddress
+        socialMediaAccounts
+        userId
+        companyId
+        phoneNumber
+        jobHistory
+        fullContactData
+        dateCreated
+      }
+      totalReferrals
+      webNotifications {
+        id
+        userId
+        requestingUserId
+        contactId
+        referralId
+        jobId
+        matches
+        message
+        dateCreated
+      }
+      connectedApps
+      active
+      createdById
+      dateCreated
+      ranking
+      previousRanking
+      ytdReferralCount
+    }
+    departmentId
+    department {
+      id
+      companyId
+      name
+      active
+      totalUsers
+      userDepartments {
+        id
+        userId
+        departmentId
+      }
+    }
+  }
+}
+`;
+export const listUserDepartments = `query ListUserDepartments(
+  $filter: TableUserDepartmentFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listUserDepartments(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      userId
+      user {
+        id
+        cognitoId
+        companyId
+        emailAddress
+        firstName
+        lastName
+        title
+        departmentId
+        lastLogin
+        lastNotificationCheck
+        contacts {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        totalReferrals
+        webNotifications {
+          id
+          userId
+          requestingUserId
+          contactId
+          referralId
+          jobId
+          matches
+          message
+          dateCreated
+        }
+        connectedApps
+        active
+        createdById
+        dateCreated
+        ranking
+        previousRanking
+        ytdReferralCount
+      }
+      departmentId
+      department {
+        id
+        companyId
+        name
+        active
+        totalUsers
+        userDepartments {
+          id
+          userId
+          departmentId
+        }
+      }
+    }
+    nextToken
+  }
+}
+`;
+export const getWebNotification = `query GetWebNotification($id: ID!) {
+  getWebNotification(id: $id) {
+    id
+    type
+    userId
+    user {
+      id
+      cognitoId
+      companyId
+      emailAddress
+      firstName
+      lastName
+      title
+      departmentId
+      lastLogin
+      lastNotificationCheck
+      contacts {
+        id
+        firstName
+        lastName
+        emailAddress
+        socialMediaAccounts
+        userId
+        companyId
+        phoneNumber
+        jobHistory
+        fullContactData
+        dateCreated
+      }
+      totalReferrals
+      webNotifications {
+        id
+        userId
+        requestingUserId
+        contactId
+        referralId
+        jobId
+        matches
+        message
+        dateCreated
+      }
+      connectedApps
+      active
+      createdById
+      dateCreated
+      ranking
+      previousRanking
+      ytdReferralCount
+    }
+    referralRequestedStatus
+    requestingUserId
+    requestingUser {
+      id
+      cognitoId
+      companyId
+      emailAddress
+      firstName
+      lastName
+      title
+      departmentId
+      lastLogin
+      lastNotificationCheck
+      contacts {
+        id
+        firstName
+        lastName
+        emailAddress
+        socialMediaAccounts
+        userId
+        companyId
+        phoneNumber
+        jobHistory
+        fullContactData
+        dateCreated
+      }
+      totalReferrals
+      webNotifications {
+        id
+        userId
+        requestingUserId
+        contactId
+        referralId
+        jobId
+        matches
+        message
+        dateCreated
+      }
+      connectedApps
+      active
+      createdById
+      dateCreated
+      ranking
+      previousRanking
+      ytdReferralCount
+    }
+    contactId
+    contact {
+      id
+      firstName
+      lastName
+      emailAddress
+      socialMediaAccounts
+      userId
+      companyId
+      phoneNumber
+      jobHistory
+      fullContactData
+      dateCreated
+    }
+    referralId
+    referral {
+      id
+      companyId
+      contactId
+      userId
+      jobId
+      note
+      message
+      referralDate
+      hireDate
+    }
+    jobId
+    job {
+      id
+      companyId
+      departmentId
+      title
+      description
+      publicLink
+      salary
+      location
+      hiringManagerId
+      createdById
+      referralBonus
+      shares
+      views
+      referrals {
+        id
+        companyId
+        contactId
+        userId
+        jobId
+        note
+        message
+        referralDate
+        hireDate
+      }
+      matches {
+        id
+        firstName
+        lastName
+        emailAddress
+        socialMediaAccounts
+        userId
+        companyId
+        phoneNumber
+        jobHistory
+        fullContactData
+        dateCreated
+      }
+      dateCreated
+    }
+    matches
+    message
+    dateCreated
+  }
+}
+`;
+export const listWebNotifications = `query ListWebNotifications(
+  $filter: TableWebNotificationFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listWebNotifications(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      type
+      userId
+      user {
+        id
+        cognitoId
+        companyId
+        emailAddress
+        firstName
+        lastName
+        title
+        departmentId
+        lastLogin
+        lastNotificationCheck
+        contacts {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        totalReferrals
+        webNotifications {
+          id
+          userId
+          requestingUserId
+          contactId
+          referralId
+          jobId
+          matches
+          message
+          dateCreated
+        }
+        connectedApps
+        active
+        createdById
+        dateCreated
+        ranking
+        previousRanking
+        ytdReferralCount
+      }
+      referralRequestedStatus
+      requestingUserId
+      requestingUser {
+        id
+        cognitoId
+        companyId
+        emailAddress
+        firstName
+        lastName
+        title
+        departmentId
+        lastLogin
+        lastNotificationCheck
+        contacts {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        totalReferrals
+        webNotifications {
+          id
+          userId
+          requestingUserId
+          contactId
+          referralId
+          jobId
+          matches
+          message
+          dateCreated
+        }
+        connectedApps
+        active
+        createdById
+        dateCreated
+        ranking
+        previousRanking
+        ytdReferralCount
+      }
+      contactId
+      contact {
+        id
+        firstName
+        lastName
+        emailAddress
+        socialMediaAccounts
+        userId
+        companyId
+        phoneNumber
+        jobHistory
+        fullContactData
+        dateCreated
+      }
+      referralId
+      referral {
+        id
+        companyId
+        contactId
+        userId
+        jobId
+        note
+        message
+        referralDate
+        hireDate
+      }
+      jobId
+      job {
+        id
+        companyId
+        departmentId
+        title
+        description
+        publicLink
+        salary
+        location
+        hiringManagerId
+        createdById
+        referralBonus
+        shares
+        views
+        referrals {
+          id
+          companyId
+          contactId
+          userId
+          jobId
+          note
+          message
+          referralDate
+          hireDate
+        }
+        matches {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        dateCreated
+      }
+      matches
+      message
+      dateCreated
+    }
+    nextToken
+  }
+}
+`;
+export const getUserInvite = `query GetUserInvite($id: ID!) {
+  getUserInvite(id: $id) {
+    id
+    companyId
+    company {
+      id
+      name
+      defaultBonusAmount
+      contactIncentiveBonus
+      websiteUrl
+      dateCreated
+      users {
+        id
+        cognitoId
+        companyId
+        emailAddress
+        firstName
+        lastName
+        title
+        departmentId
+        lastLogin
+        lastNotificationCheck
+        contacts {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        totalReferrals
+        webNotifications {
+          id
+          userId
+          requestingUserId
+          contactId
+          referralId
+          jobId
+          matches
+          message
+          dateCreated
+        }
+        connectedApps
+        active
+        createdById
+        dateCreated
+        ranking
+        previousRanking
+        ytdReferralCount
+      }
+    }
+    userId
+    user {
+      id
+      cognitoId
+      companyId
+      emailAddress
+      firstName
+      lastName
+      title
+      departmentId
+      lastLogin
+      lastNotificationCheck
+      contacts {
+        id
+        firstName
+        lastName
+        emailAddress
+        socialMediaAccounts
+        userId
+        companyId
+        phoneNumber
+        jobHistory
+        fullContactData
+        dateCreated
+      }
+      totalReferrals
+      webNotifications {
+        id
+        userId
+        requestingUserId
+        contactId
+        referralId
+        jobId
+        matches
+        message
+        dateCreated
+      }
+      connectedApps
+      active
+      createdById
+      dateCreated
+      ranking
+      previousRanking
+      ytdReferralCount
+    }
+    createdById
+    createdBy {
+      id
+      cognitoId
+      companyId
+      emailAddress
+      firstName
+      lastName
+      title
+      departmentId
+      lastLogin
+      lastNotificationCheck
+      contacts {
+        id
+        firstName
+        lastName
+        emailAddress
+        socialMediaAccounts
+        userId
+        companyId
+        phoneNumber
+        jobHistory
+        fullContactData
+        dateCreated
+      }
+      totalReferrals
+      webNotifications {
+        id
+        userId
+        requestingUserId
+        contactId
+        referralId
+        jobId
+        matches
+        message
+        dateCreated
+      }
+      connectedApps
+      active
+      createdById
+      dateCreated
+      ranking
+      previousRanking
+      ytdReferralCount
+    }
+    emailAddress
+    firstName
+    lastName
+    title
+    role
+    dateCreated
+  }
+}
+`;
+export const listUserInvites = `query ListUserInvites(
+  $filter: TableUserInviteFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listUserInvites(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      companyId
+      company {
+        id
+        name
+        defaultBonusAmount
+        contactIncentiveBonus
+        websiteUrl
+        dateCreated
+        users {
+          id
+          cognitoId
+          companyId
+          emailAddress
+          firstName
+          lastName
+          title
+          departmentId
+          lastLogin
+          lastNotificationCheck
+          contacts {
+            id
+            firstName
+            lastName
+            emailAddress
+            socialMediaAccounts
+            userId
+            companyId
+            phoneNumber
+            jobHistory
+            fullContactData
+            dateCreated
+          }
+          totalReferrals
+          webNotifications {
+            id
+            userId
+            requestingUserId
+            contactId
+            referralId
+            jobId
+            matches
+            message
+            dateCreated
+          }
+          connectedApps
+          active
+          createdById
+          dateCreated
+          ranking
+          previousRanking
+          ytdReferralCount
+        }
+      }
+      userId
+      user {
+        id
+        cognitoId
+        companyId
+        emailAddress
+        firstName
+        lastName
+        title
+        departmentId
+        lastLogin
+        lastNotificationCheck
+        contacts {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        totalReferrals
+        webNotifications {
+          id
+          userId
+          requestingUserId
+          contactId
+          referralId
+          jobId
+          matches
+          message
+          dateCreated
+        }
+        connectedApps
+        active
+        createdById
+        dateCreated
+        ranking
+        previousRanking
+        ytdReferralCount
+      }
+      createdById
+      createdBy {
+        id
+        cognitoId
+        companyId
+        emailAddress
+        firstName
+        lastName
+        title
+        departmentId
+        lastLogin
+        lastNotificationCheck
+        contacts {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        totalReferrals
+        webNotifications {
+          id
+          userId
+          requestingUserId
+          contactId
+          referralId
+          jobId
+          matches
+          message
+          dateCreated
+        }
+        connectedApps
+        active
+        createdById
+        dateCreated
+        ranking
+        previousRanking
+        ytdReferralCount
+      }
+      emailAddress
+      firstName
+      lastName
+      title
+      role
+      dateCreated
+    }
+    nextToken
+  }
+}
+`;
+export const getJobMatch = `query GetJobMatch($id: ID!) {
+  getJobMatch(id: $id) {
+    id
+    contactId
+    contact {
+      id
+      firstName
+      lastName
+      emailAddress
+      socialMediaAccounts
+      userId
+      companyId
+      phoneNumber
+      jobHistory
+      fullContactData
+      dateCreated
+    }
+    jobId
+    job {
+      id
+      companyId
+      departmentId
+      title
+      description
+      publicLink
+      salary
+      location
+      hiringManagerId
+      createdById
+      referralBonus
+      shares
+      views
+      referrals {
+        id
+        companyId
+        contactId
+        userId
+        jobId
+        note
+        message
+        referralDate
+        hireDate
+      }
+      matches {
+        id
+        firstName
+        lastName
+        emailAddress
+        socialMediaAccounts
+        userId
+        companyId
+        phoneNumber
+        jobHistory
+        fullContactData
+        dateCreated
+      }
+      dateCreated
+    }
+    dateCreated
+  }
+}
+`;
+export const listJobMatches = `query ListJobMatches(
+  $filter: TableJobMatchFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listJobMatches(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      contactId
+      contact {
+        id
+        firstName
+        lastName
+        emailAddress
+        socialMediaAccounts
+        userId
+        companyId
+        phoneNumber
+        jobHistory
+        fullContactData
+        dateCreated
+      }
+      jobId
+      job {
+        id
+        companyId
+        departmentId
+        title
+        description
+        publicLink
+        salary
+        location
+        hiringManagerId
+        createdById
+        referralBonus
+        shares
+        views
+        referrals {
+          id
+          companyId
+          contactId
+          userId
+          jobId
+          note
+          message
+          referralDate
+          hireDate
+        }
+        matches {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        dateCreated
+      }
+      dateCreated
+    }
+    nextToken
+  }
+}
+`;
+export const queryJobMatchesByContactIdIndex = `query QueryJobMatchesByContactIdIndex(
+  $jobId: ID!
+  $first: Int
+  $after: String
+) {
+  queryJobMatchesByContactIdIndex(jobId: $jobId, first: $first, after: $after) {
+    items {
+      id
+      contactId
+      contact {
+        id
+        firstName
+        lastName
+        emailAddress
+        socialMediaAccounts
+        userId
+        companyId
+        phoneNumber
+        jobHistory
+        fullContactData
+        dateCreated
+      }
+      jobId
+      job {
+        id
+        companyId
+        departmentId
+        title
+        description
+        publicLink
+        salary
+        location
+        hiringManagerId
+        createdById
+        referralBonus
+        shares
+        views
+        referrals {
+          id
+          companyId
+          contactId
+          userId
+          jobId
+          note
+          message
+          referralDate
+          hireDate
+        }
+        matches {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        dateCreated
+      }
+      dateCreated
+    }
+    nextToken
+  }
+}
+`;
+export const queryJobMatchesByJobIdIndex = `query QueryJobMatchesByJobIdIndex($jobId: ID!, $first: Int, $after: String) {
+  queryJobMatchesByJobIdIndex(jobId: $jobId, first: $first, after: $after) {
+    items {
+      id
+      contactId
+      contact {
+        id
+        firstName
+        lastName
+        emailAddress
+        socialMediaAccounts
+        userId
+        companyId
+        phoneNumber
+        jobHistory
+        fullContactData
+        dateCreated
+      }
+      jobId
+      job {
+        id
+        companyId
+        departmentId
+        title
+        description
+        publicLink
+        salary
+        location
+        hiringManagerId
+        createdById
+        referralBonus
+        shares
+        views
+        referrals {
+          id
+          companyId
+          contactId
+          userId
+          jobId
+          note
+          message
+          referralDate
+          hireDate
+        }
+        matches {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        dateCreated
+      }
+      dateCreated
+    }
+    nextToken
+  }
+}
+`;

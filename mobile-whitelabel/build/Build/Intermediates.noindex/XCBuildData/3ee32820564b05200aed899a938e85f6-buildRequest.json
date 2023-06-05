@@ -1,0 +1,75 @@
+{
+  "_buildCommand2" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "e8512722bae15ba113c6d863766491767ceb6b36bcfc2fb90f69ac96de4975d6"
+    }
+  ],
+  "containerPath" : "/Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/ios/erinMobile.xcworkspace",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "undefined_arch",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : true,
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos16.2",
+      "sdkVariant" : "iphoneos",
+      "supportedArchitectures" : [
+        "armv4t",
+        "armv5",
+        "armv6",
+        "armv7",
+        "armv7f",
+        "armv7s",
+        "armv7k",
+        "arm64",
+        "arm64e"
+      ],
+      "targetArchitecture" : "undefined_arch"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/build/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/build/Build/Products",
+      "derivedDataPath" : "/Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/build",
+      "indexDataStoreFolderPath" : "/Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/build/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/build/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/build/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "CODE_SIGN_IDENTITY" : "",
+          "CODE_SIGN_STYLE" : "Manual",
+          "CODE_SIGNING_REQUIRED" : "NO",
+          "DEVELOPMENT_TEAM" : "G46YUYTZ12Q",
+          "PROVISIONING_PROFILE_SPECIFIER" : "545a5a7b-0907-4192-bfc9-42d20b671b94"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "COLOR_DIAGNOSTICS" : "YES",
+          "diagnostic_message_length" : "173",
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

@@ -1,0 +1,126 @@
+export const createContact = `mutation CreateContact($input: CreateContactInput!) {
+  createContact(input: $input) {
+    id
+    firstName
+    lastName
+    emailAddress
+    socialMediaAccounts
+    referrals {
+      id
+      companyId
+      contactId
+      userId
+      jobId
+      note
+      message
+      referralDate
+      hireDate
+    }
+    userId
+    user {
+      id
+      cognitoId
+      companyId
+      emailAddress
+      firstName
+      lastName
+      title
+      departmentId
+      lastLogin
+      lastNotificationCheck
+      contacts {
+        id
+        firstName
+        lastName
+        emailAddress
+        socialMediaAccounts
+        userId
+        companyId
+        phoneNumber
+        jobHistory
+        fullContactData
+        dateCreated
+      }
+      totalReferrals
+      webNotifications {
+        id
+        userId
+        requestingUserId
+        contactId
+        referralId
+        jobId
+        matches
+        message
+        dateCreated
+      }
+      connectedApps
+      active
+      createdById
+      dateCreated
+      ranking
+      previousRanking
+      ytdReferralCount
+    }
+    companyId
+    company {
+      id
+      name
+      defaultBonusAmount
+      contactIncentiveBonus
+      websiteUrl
+      dateCreated
+      users {
+        id
+        cognitoId
+        companyId
+        emailAddress
+        firstName
+        lastName
+        title
+        departmentId
+        lastLogin
+        lastNotificationCheck
+        contacts {
+          id
+          firstName
+          lastName
+          emailAddress
+          socialMediaAccounts
+          userId
+          companyId
+          phoneNumber
+          jobHistory
+          fullContactData
+          dateCreated
+        }
+        totalReferrals
+        webNotifications {
+          id
+          userId
+          requestingUserId
+          contactId
+          referralId
+          jobId
+          matches
+          message
+          dateCreated
+        }
+        connectedApps
+        active
+        createdById
+        dateCreated
+        ranking
+        previousRanking
+        ytdReferralCount
+      }
+    }
+    phoneNumber
+    jobHistory
+    importMethod
+    fullContactData
+    dateCreated
+    onDeckStatus
+    onDeckDate
+  }
+}
+`;

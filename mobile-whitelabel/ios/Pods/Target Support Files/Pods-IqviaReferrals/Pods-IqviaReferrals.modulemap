@@ -1,0 +1,6 @@
+module Pods_IqviaReferrals {
+  umbrella header "Pods-IqviaReferrals-umbrella.h"
+
+  export *
+  module * { export * }
+}

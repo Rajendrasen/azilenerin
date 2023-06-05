@@ -1,0 +1,6 @@
+module Pods_northWestReferrals {
+  umbrella header "Pods-northWestReferrals-umbrella.h"
+
+  export *
+  module * { export * }
+}

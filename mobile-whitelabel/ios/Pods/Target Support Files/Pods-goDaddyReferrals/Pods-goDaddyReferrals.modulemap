@@ -1,0 +1,6 @@
+module Pods_goDaddyReferrals {
+  umbrella header "Pods-goDaddyReferrals-umbrella.h"
+
+  export *
+  module * { export * }
+}

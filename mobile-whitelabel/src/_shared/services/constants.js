@@ -1,0 +1,97 @@
+export const JobTypes = {
+    0: 'Full-time',
+    1: 'Part-time',
+    2: 'Part-time',
+    3: 'Contract',
+    4: 'Internship',
+    5: 'Commision',
+};
+
+export const SalaryTypes = ['per year', 'per hour', 'per day', 'per week', 'per month'];
+
+export const tempJobDepartments = [
+    'Sales',
+    'Marketing',
+    'I.T.',
+    'I.S.',
+    'Engineering',
+    'Executive',
+    'Other',
+];
+
+export const notificationTypes = [
+    'Notify All Employees',
+    'Notify Department Only',
+    'No Notifications',
+];
+
+export const pageSubtitles = ['Job Info', 'Description', 'Referral Info', 'Review'];
+
+export const USStates = {
+    AL: 'Alabama',
+    AK: 'Alaska',
+    AZ: 'Arizona',
+    AR: 'Arkansas',
+    CA: 'California',
+    CO: 'Colorado',
+    CT: 'Connecticut',
+    DE: 'Delaware',
+    DC: 'District Of Columbia',
+    FL: 'Florida',
+    GA: 'Georgia',
+    HI: 'Hawaii',
+    ID: 'Idaho',
+    IL: 'Illinois',
+    IN: 'Indiana',
+    IA: 'Iowa',
+    KS: 'Kansas',
+    KY: 'Kentucky',
+    LA: 'Louisiana',
+    ME: 'Maine',
+    MD: 'Maryland',
+    MA: 'Massachusetts',
+    MI: 'Michigan',
+    MN: 'Minnesota',
+    MS: 'Mississippi',
+    MO: 'Missouri',
+    MT: 'Montana',
+    NE: 'Nebraska',
+    NV: 'Nevada',
+    NH: 'New Hampshire',
+    NJ: 'New Jersey',
+    NM: 'New Mexico',
+    NY: 'New York',
+    NC: 'North Carolina',
+    ND: 'North Dakota',
+    OH: 'Ohio',
+    OK: 'Oklahoma',
+    OR: 'Oregon',
+    PA: 'Pennsylvania',
+    RI: 'Rhode Island',
+    SC: 'South Carolina',
+    SD: 'South Dakota',
+    TN: 'Tennessee',
+    TX: 'Texas',
+    UT: 'Utah',
+    VT: 'Vermont',
+    VA: 'Virginia',
+    WA: 'Washington',
+    WV: 'West Virginia',
+    WI: 'Wisconsin',
+    WY: 'Wyoming',
+};
+
+export const EMPLOYEE_DASHBOARD = {
+    REFER_SOMEONE: 'Refer Someone',
+    INTERNAL_MOBILITY: 'Internal Mobility',
+    YOUR_REFERRALS: 'Your Referrals',
+    REFERRALS_MADE_RANKING: 'Referrals Made Ranking',
+    POINTS: 'Points',
+    LEADERBOARDS: 'Leaderboards',
+    JOBS_OVERVIEW: 'Jobs Overview',
+    ANNOUNCEMENTS: 'Announcements',
+    POLICY: 'Policy',
+    JOBS_FOR_YOU: 'Jobs For You',
+    HOT_JOBS: 'Hot Jobs',
+    GENERAL_REFERRAL: 'General Referral',
+}

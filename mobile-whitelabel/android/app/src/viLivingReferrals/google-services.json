@@ -1,0 +1,515 @@
+{
+  "project_info": {
+    "project_number": "981252797800",
+    "firebase_url": "https://erinfirebase.firebaseio.com",
+    "project_id": "erinfirebase",
+    "storage_bucket": "erinfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981252797800:android:43a4d5c652717c64a992dd",
+        "android_client_info": {
+          "package_name": "com.apploireferrals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981252797800-2ebbe8a0l1a5oac2859tskm9p1lldlp2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAhHMM0aW1CrIEz9MdFT0McI1YCQOaMHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981252797800-2ebbe8a0l1a5oac2859tskm9p1lldlp2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "981252797800-4qff3fgjr91uj58q4h98965e500vsija.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.seaworldreferrals"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981252797800:android:b320c299fbabf4a6a992dd",
+        "android_client_info": {
+          "package_name": "com.godaddyreferrals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981252797800-2ebbe8a0l1a5oac2859tskm9p1lldlp2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAhHMM0aW1CrIEz9MdFT0McI1YCQOaMHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981252797800-2ebbe8a0l1a5oac2859tskm9p1lldlp2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "981252797800-4qff3fgjr91uj58q4h98965e500vsija.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.seaworldreferrals"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981252797800:android:4df9900645702a8da992dd",
+        "android_client_info": {
+          "package_name": "com.hatchpadreferrals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981252797800-2ebbe8a0l1a5oac2859tskm9p1lldlp2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAhHMM0aW1CrIEz9MdFT0McI1YCQOaMHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981252797800-2ebbe8a0l1a5oac2859tskm9p1lldlp2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "981252797800-4qff3fgjr91uj58q4h98965e500vsija.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.seaworldreferrals"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981252797800:android:108c65377441bf4ba992dd",
+        "android_client_info": {
+          "package_name": "com.heartlandreferrals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981252797800-2ebbe8a0l1a5oac2859tskm9p1lldlp2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAhHMM0aW1CrIEz9MdFT0McI1YCQOaMHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981252797800-2ebbe8a0l1a5oac2859tskm9p1lldlp2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "981252797800-4qff3fgjr91uj58q4h98965e500vsija.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.seaworldreferrals"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981252797800:android:5d86ecc9ffcaff08a992dd",
+        "android_client_info": {
+          "package_name": "com.pinterestreferrals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981252797800-2ebbe8a0l1a5oac2859tskm9p1lldlp2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAhHMM0aW1CrIEz9MdFT0McI1YCQOaMHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981252797800-2ebbe8a0l1a5oac2859tskm9p1lldlp2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "981252797800-4qff3fgjr91uj58q4h98965e500vsija.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.seaworldreferrals"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981252797800:android:11053702b2391df2a992dd",
+        "android_client_info": {
+          "package_name": "com.primaryaimreferrals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981252797800-2ebbe8a0l1a5oac2859tskm9p1lldlp2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAhHMM0aW1CrIEz9MdFT0McI1YCQOaMHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981252797800-2ebbe8a0l1a5oac2859tskm9p1lldlp2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "981252797800-4qff3fgjr91uj58q4h98965e500vsija.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.seaworldreferrals"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981252797800:android:395759813764a9f4a992dd",
+        "android_client_info": {
+          "package_name": "com.refercxreferrals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981252797800-2ebbe8a0l1a5oac2859tskm9p1lldlp2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAhHMM0aW1CrIEz9MdFT0McI1YCQOaMHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981252797800-2ebbe8a0l1a5oac2859tskm9p1lldlp2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "981252797800-4qff3fgjr91uj58q4h98965e500vsija.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.seaworldreferrals"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981252797800:android:5abe1ff00749a8d3a992dd",
+        "android_client_info": {
+          "package_name": "com.refervets"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981252797800-2ebbe8a0l1a5oac2859tskm9p1lldlp2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAhHMM0aW1CrIEz9MdFT0McI1YCQOaMHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981252797800-2ebbe8a0l1a5oac2859tskm9p1lldlp2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "981252797800-4qff3fgjr91uj58q4h98965e500vsija.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.seaworldreferrals"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981252797800:android:a5e0116d2e4f592aa992dd",
+        "android_client_info": {
+          "package_name": "com.seaworldreferrals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981252797800-2ebbe8a0l1a5oac2859tskm9p1lldlp2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAhHMM0aW1CrIEz9MdFT0McI1YCQOaMHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981252797800-2ebbe8a0l1a5oac2859tskm9p1lldlp2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "981252797800-4qff3fgjr91uj58q4h98965e500vsija.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.seaworldreferrals"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981252797800:android:994d0e434f5753e0a992dd",
+        "android_client_info": {
+          "package_name": "com.sevitareferrals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981252797800-2ebbe8a0l1a5oac2859tskm9p1lldlp2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAhHMM0aW1CrIEz9MdFT0McI1YCQOaMHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981252797800-2ebbe8a0l1a5oac2859tskm9p1lldlp2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "981252797800-4qff3fgjr91uj58q4h98965e500vsija.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.seaworldreferrals"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981252797800:android:faa4cfab80e89602a992dd",
+        "android_client_info": {
+          "package_name": "com.sunrisereferrals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981252797800-2ebbe8a0l1a5oac2859tskm9p1lldlp2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAhHMM0aW1CrIEz9MdFT0McI1YCQOaMHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981252797800-2ebbe8a0l1a5oac2859tskm9p1lldlp2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "981252797800-4qff3fgjr91uj58q4h98965e500vsija.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.seaworldreferrals"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981252797800:android:19dc1ac20f630b98a992dd",
+        "android_client_info": {
+          "package_name": "com.trinityreferrals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981252797800-2ebbe8a0l1a5oac2859tskm9p1lldlp2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAhHMM0aW1CrIEz9MdFT0McI1YCQOaMHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981252797800-2ebbe8a0l1a5oac2859tskm9p1lldlp2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "981252797800-4qff3fgjr91uj58q4h98965e500vsija.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.seaworldreferrals"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981252797800:android:cf07ee81eeacfd89a992dd",
+        "android_client_info": {
+          "package_name": "com.twilioreferrals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981252797800-2ebbe8a0l1a5oac2859tskm9p1lldlp2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAhHMM0aW1CrIEz9MdFT0McI1YCQOaMHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981252797800-2ebbe8a0l1a5oac2859tskm9p1lldlp2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "981252797800-4qff3fgjr91uj58q4h98965e500vsija.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.seaworldreferrals"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981252797800:android:3902930e3879a09da992dd",
+        "android_client_info": {
+          "package_name": "com.viliving.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981252797800-2ebbe8a0l1a5oac2859tskm9p1lldlp2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAhHMM0aW1CrIEz9MdFT0McI1YCQOaMHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981252797800-2ebbe8a0l1a5oac2859tskm9p1lldlp2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "981252797800-4qff3fgjr91uj58q4h98965e500vsija.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.seaworldreferrals"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

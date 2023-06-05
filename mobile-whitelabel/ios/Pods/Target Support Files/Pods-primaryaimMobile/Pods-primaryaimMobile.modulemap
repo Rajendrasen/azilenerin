@@ -1,0 +1,6 @@
+module Pods_primaryaimMobile {
+  umbrella header "Pods-primaryaimMobile-umbrella.h"
+
+  export *
+  module * { export * }
+}

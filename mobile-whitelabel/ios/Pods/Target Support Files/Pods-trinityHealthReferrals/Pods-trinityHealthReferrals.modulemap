@@ -1,0 +1,6 @@
+module Pods_trinityHealthReferrals {
+  umbrella header "Pods-trinityHealthReferrals-umbrella.h"
+
+  export *
+  module * { export * }
+}

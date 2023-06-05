@@ -1,0 +1,6 @@
+module Pods_viLivingReferrals {
+  umbrella header "Pods-viLivingReferrals-umbrella.h"
+
+  export *
+  module * { export * }
+}

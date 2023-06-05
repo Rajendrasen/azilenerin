@@ -1,0 +1,6 @@
+module Pods_erinMobile {
+  umbrella header "Pods-erinMobile-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,31 @@
+dependencies: \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/ios/Pods/GTMAppAuth/GTMAppAuth/Sources/GTMAppAuthFetcherAuthorization.m \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/ios/Pods/GTMAppAuth/GTMAppAuth/Sources/Public/GTMAppAuth/GTMAppAuthFetcherAuthorization.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/ios/Pods/Headers/Private/GTMSessionFetcher/GTMSessionFetcher.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/ios/Pods/Headers/Private/AppAuth/AppAuthCore.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/ios/Pods/Headers/Private/AppAuth/OIDAuthState.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/ios/Pods/Headers/Private/AppAuth/OIDAuthStateChangeDelegate.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/ios/Pods/Headers/Private/AppAuth/OIDAuthStateErrorDelegate.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/ios/Pods/Headers/Private/AppAuth/OIDAuthorizationRequest.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/ios/Pods/Headers/Private/AppAuth/OIDExternalUserAgentRequest.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/ios/Pods/Headers/Private/AppAuth/OIDResponseTypes.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/ios/Pods/Headers/Private/AppAuth/OIDScopes.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/ios/Pods/Headers/Private/AppAuth/OIDAuthorizationResponse.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/ios/Pods/Headers/Private/AppAuth/OIDAuthorizationService.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/ios/Pods/Headers/Private/AppAuth/OIDError.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/ios/Pods/Headers/Private/AppAuth/OIDErrorUtilities.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/ios/Pods/Headers/Private/AppAuth/OIDExternalUserAgent.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/ios/Pods/Headers/Private/AppAuth/OIDExternalUserAgentSession.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/ios/Pods/Headers/Private/AppAuth/OIDGrantTypes.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/ios/Pods/Headers/Private/AppAuth/OIDIDToken.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/ios/Pods/Headers/Private/AppAuth/OIDRegistrationRequest.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/ios/Pods/Headers/Private/AppAuth/OIDRegistrationResponse.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/ios/Pods/Headers/Private/AppAuth/OIDScopeUtilities.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/ios/Pods/Headers/Private/AppAuth/OIDServiceConfiguration.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/ios/Pods/Headers/Private/AppAuth/OIDServiceDiscovery.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/ios/Pods/Headers/Private/AppAuth/OIDTokenRequest.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/ios/Pods/Headers/Private/AppAuth/OIDTokenResponse.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/ios/Pods/Headers/Private/AppAuth/OIDTokenUtilities.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/ios/Pods/Headers/Private/AppAuth/OIDURLSessionProvider.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/ios/Pods/Headers/Private/AppAuth/OIDEndSessionRequest.h \
+  /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/ios/Pods/Headers/Private/AppAuth/OIDEndSessionResponse.h

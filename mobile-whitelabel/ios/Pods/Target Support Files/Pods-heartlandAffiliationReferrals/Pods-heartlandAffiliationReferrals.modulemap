@@ -1,0 +1,6 @@
+module Pods_heartlandAffiliationReferrals {
+  umbrella header "Pods-heartlandAffiliationReferrals-umbrella.h"
+
+  export *
+  module * { export * }
+}

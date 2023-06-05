@@ -1,0 +1,6 @@
+module Pods_partnersInEmployment {
+  umbrella header "Pods-partnersInEmployment-umbrella.h"
+
+  export *
+  module * { export * }
+}

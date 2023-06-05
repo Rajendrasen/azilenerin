@@ -1,0 +1,6 @@
+module Pods_erinMobile_erinMobileTests {
+  umbrella header "Pods-erinMobile-erinMobileTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

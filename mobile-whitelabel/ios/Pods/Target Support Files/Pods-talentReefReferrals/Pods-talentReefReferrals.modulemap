@@ -1,0 +1,6 @@
+module Pods_talentReefReferrals {
+  umbrella header "Pods-talentReefReferrals-umbrella.h"
+
+  export *
+  module * { export * }
+}

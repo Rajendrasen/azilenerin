@@ -1,0 +1,6 @@
+module Pods_demoerin {
+  umbrella header "Pods-demoerin-umbrella.h"
+
+  export *
+  module * { export * }
+}

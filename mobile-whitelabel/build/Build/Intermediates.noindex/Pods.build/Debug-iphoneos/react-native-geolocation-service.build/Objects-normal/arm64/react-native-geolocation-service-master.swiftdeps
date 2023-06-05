@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "9c84b267f3ea6e1c97dcd7fc8154647d0b528f12bbf479996621dd9e12d312d4"
+build_start_time: [1684142774, 668905019]
+build_end_time: [1684142808, 914397954]
+inputs:
+  "/Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/node_modules/react-native-geolocation-service/ios/LocationOptions.swift": [1683891164, 635044097]
+  "/Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/node_modules/react-native-geolocation-service/ios/LocationProvider.swift": [1683891164, 680378913]
+  "/Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/node_modules/react-native-geolocation-service/ios/LocationUtils.swift": [1683891164, 689677238]
+  "/Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/node_modules/react-native-geolocation-service/ios/RNFusedLocation.swift": [1683891164, 697631835]

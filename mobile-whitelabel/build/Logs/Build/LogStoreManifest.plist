@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>252693F2-2ACB-46DE-B30D-1ADC8B02F56E</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>252693F2-2ACB-46DE-B30D-1ADC8B02F56E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>erinMobile project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>sunriseReferrals</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace erinMobile with scheme sunriseReferrals</string>
+			<key>timeStartedRecording</key>
+			<real>705841821.52314496</real>
+			<key>timeStoppedRecording</key>
+			<real>705841881.25610805</real>
+			<key>title</key>
+			<string>Building workspace erinMobile with scheme sunriseReferrals</string>
+			<key>uniqueIdentifier</key>
+			<string>252693F2-2ACB-46DE-B30D-1ADC8B02F56E</string>
+		</dict>
+		<key>D73492F6-5122-4317-B087-A897107EA0CE</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D73492F6-5122-4317-B087-A897107EA0CE.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>erinMobile project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>erinMobile</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace erinMobile with scheme erinMobile</string>
+			<key>timeStartedRecording</key>
+			<real>705841732.40864396</real>
+			<key>timeStoppedRecording</key>
+			<real>705841795.58047903</real>
+			<key>title</key>
+			<string>Building workspace erinMobile with scheme erinMobile</string>
+			<key>uniqueIdentifier</key>
+			<string>D73492F6-5122-4317-B087-A897107EA0CE</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

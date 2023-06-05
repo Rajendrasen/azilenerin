@@ -1,0 +1,6 @@
+module Pods_sunriseReferrals {
+  umbrella header "Pods-sunriseReferrals-umbrella.h"
+
+  export *
+  module * { export * }
+}

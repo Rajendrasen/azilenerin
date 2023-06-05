@@ -1,0 +1,326 @@
+Target dependency graph (68 targets)
+AppAuth in Pods, no dependencies
+DoubleConversion in Pods, no dependencies
+boost-for-react-native in Pods, no dependencies
+glog in Pods, no dependencies
+Folly in Pods, depends on:
+DoubleConversion in Pods (explicit)
+boost-for-react-native in Pods (explicit)
+glog in Pods (explicit)
+React-jsinspector in Pods, no dependencies
+React-cxxreact in Pods, depends on:
+DoubleConversion in Pods (explicit)
+Folly in Pods (explicit)
+React-jsinspector in Pods (explicit)
+boost-for-react-native in Pods (explicit)
+glog in Pods (explicit)
+React-jsi in Pods, depends on:
+DoubleConversion in Pods (explicit)
+Folly in Pods (explicit)
+boost-for-react-native in Pods (explicit)
+glog in Pods (explicit)
+React-jsiexecutor in Pods, depends on:
+DoubleConversion in Pods (explicit)
+Folly in Pods (explicit)
+React-cxxreact in Pods (explicit)
+React-jsi in Pods (explicit)
+glog in Pods (explicit)
+Yoga in Pods, no dependencies
+React-Core in Pods, depends on:
+Folly in Pods (explicit)
+React-cxxreact in Pods (explicit)
+React-jsi in Pods (explicit)
+React-jsiexecutor in Pods (explicit)
+React-jsinspector in Pods (explicit)
+Yoga in Pods (explicit)
+glog in Pods (explicit)
+React-RCTActionSheet in Pods, depends on:
+React-Core in Pods (explicit)
+RCTRequired in Pods, no dependencies
+FBLazyVector in Pods, no dependencies
+RCTTypeSafety in Pods, depends on:
+FBLazyVector in Pods (explicit)
+Folly in Pods (explicit)
+RCTRequired in Pods (explicit)
+React-Core in Pods (explicit)
+ReactCommon in Pods, depends on:
+DoubleConversion in Pods (explicit)
+Folly in Pods (explicit)
+React-Core in Pods (explicit)
+React-cxxreact in Pods (explicit)
+React-jsi in Pods (explicit)
+glog in Pods (explicit)
+FBReactNativeSpec in Pods, depends on:
+Folly in Pods (explicit)
+RCTRequired in Pods (explicit)
+RCTTypeSafety in Pods (explicit)
+React-Core in Pods (explicit)
+React-jsi in Pods (explicit)
+ReactCommon in Pods (explicit)
+React-RCTAnimation in Pods, depends on:
+FBReactNativeSpec in Pods (explicit)
+Folly in Pods (explicit)
+RCTTypeSafety in Pods (explicit)
+React-Core in Pods (explicit)
+ReactCommon in Pods (explicit)
+React-RCTNetwork in Pods, depends on:
+FBReactNativeSpec in Pods (explicit)
+Folly in Pods (explicit)
+RCTTypeSafety in Pods (explicit)
+React-Core in Pods (explicit)
+ReactCommon in Pods (explicit)
+React-RCTBlob in Pods, depends on:
+FBReactNativeSpec in Pods (explicit)
+Folly in Pods (explicit)
+React-Core in Pods (explicit)
+React-RCTNetwork in Pods (explicit)
+React-jsi in Pods (explicit)
+ReactCommon in Pods (explicit)
+React-RCTImage in Pods, depends on:
+FBReactNativeSpec in Pods (explicit)
+Folly in Pods (explicit)
+RCTTypeSafety in Pods (explicit)
+React-Core in Pods (explicit)
+React-RCTNetwork in Pods (explicit)
+ReactCommon in Pods (explicit)
+React-RCTLinking in Pods, depends on:
+FBReactNativeSpec in Pods (explicit)
+React-Core in Pods (explicit)
+ReactCommon in Pods (explicit)
+React-RCTSettings in Pods, depends on:
+FBReactNativeSpec in Pods (explicit)
+Folly in Pods (explicit)
+RCTTypeSafety in Pods (explicit)
+React-Core in Pods (explicit)
+ReactCommon in Pods (explicit)
+React-RCTText in Pods, depends on:
+React-Core in Pods (explicit)
+React-RCTVibration in Pods, depends on:
+FBReactNativeSpec in Pods (explicit)
+Folly in Pods (explicit)
+React-Core in Pods (explicit)
+ReactCommon in Pods (explicit)
+React in Pods, depends on:
+React-Core in Pods (explicit)
+React-RCTActionSheet in Pods (explicit)
+React-RCTAnimation in Pods (explicit)
+React-RCTBlob in Pods (explicit)
+React-RCTImage in Pods (explicit)
+React-RCTLinking in Pods (explicit)
+React-RCTNetwork in Pods (explicit)
+React-RCTSettings in Pods (explicit)
+React-RCTText in Pods (explicit)
+React-RCTVibration in Pods (explicit)
+AzureAuth in Pods, depends on:
+React in Pods (explicit)
+BVLinearGradient in Pods, depends on:
+React-Core in Pods (explicit)
+GTMSessionFetcher in Pods, no dependencies
+GTMAppAuth in Pods, depends on:
+AppAuth in Pods (explicit)
+GTMSessionFetcher in Pods (explicit)
+GoogleSignIn in Pods, depends on:
+AppAuth in Pods (explicit)
+GTMAppAuth in Pods (explicit)
+GTMSessionFetcher in Pods (explicit)
+OneSignalXCFramework in Pods, no dependencies
+RNAWSCognito in Pods, depends on:
+React-Core in Pods (explicit)
+RNCAsyncStorage in Pods, depends on:
+React-Core in Pods (explicit)
+RNCMaskedView in Pods, depends on:
+React in Pods (explicit)
+RNCPicker in Pods, depends on:
+React-Core in Pods (explicit)
+RNGestureHandler in Pods, depends on:
+React-Core in Pods (explicit)
+RNGoogleSignin in Pods, depends on:
+GoogleSignIn in Pods (explicit)
+React in Pods (explicit)
+RNI18n in Pods, depends on:
+React in Pods (explicit)
+RNImageCropPicker-QBImagePicker in Pods, no dependencies
+TOCropViewController-TOCropViewControllerBundle in Pods, no dependencies
+TOCropViewController in Pods, depends on:
+TOCropViewController-TOCropViewControllerBundle in Pods (explicit)
+RNImageCropPicker in Pods, depends on:
+RNImageCropPicker-QBImagePicker in Pods (explicit)
+React-Core in Pods (explicit)
+React-RCTImage in Pods (explicit)
+TOCropViewController in Pods (explicit)
+RNInAppBrowser in Pods, depends on:
+React-Core in Pods (explicit)
+RNReanimated in Pods, depends on:
+React-Core in Pods (explicit)
+RNSVG in Pods, depends on:
+React in Pods (explicit)
+RNScreens in Pods, depends on:
+React-Core in Pods (explicit)
+RNVectorIcons in Pods, depends on:
+React in Pods (explicit)
+React-CoreModules in Pods, depends on:
+FBReactNativeSpec in Pods (explicit)
+Folly in Pods (explicit)
+RCTTypeSafety in Pods (explicit)
+React-Core in Pods (explicit)
+React-RCTImage in Pods (explicit)
+ReactCommon in Pods (explicit)
+react-native-cameraroll in Pods, depends on:
+React in Pods (explicit)
+react-native-contacts in Pods, depends on:
+React-Core in Pods (explicit)
+react-native-document-picker in Pods, depends on:
+React-Core in Pods (explicit)
+react-native-geolocation-service in Pods, depends on:
+React in Pods (explicit)
+react-native-netinfo in Pods, depends on:
+React in Pods (explicit)
+react-native-onesignal in Pods, depends on:
+OneSignalXCFramework in Pods (explicit)
+React in Pods (explicit)
+react-native-pager-view in Pods, depends on:
+React-Core in Pods (explicit)
+react-native-restart in Pods, depends on:
+React in Pods (explicit)
+react-native-safari-view in Pods, depends on:
+React in Pods (explicit)
+react-native-safe-area-context in Pods, depends on:
+React-Core in Pods (explicit)
+react-native-segmented-control in Pods, depends on:
+React-Core in Pods (explicit)
+react-native-sensitive-info in Pods, depends on:
+React-Core in Pods (explicit)
+react-native-slider in Pods, depends on:
+React in Pods (explicit)
+react-native-splash-screen in Pods, depends on:
+React-Core in Pods (explicit)
+react-native-tracking-transparency in Pods, depends on:
+React in Pods (explicit)
+react-native-webview in Pods, depends on:
+React-Core in Pods (explicit)
+toolbar-android in Pods, depends on:
+React in Pods (explicit)
+Pods-sunriseReferrals in Pods, depends on:
+AppAuth in Pods (explicit)
+AzureAuth in Pods (explicit)
+BVLinearGradient in Pods (explicit)
+DoubleConversion in Pods (explicit)
+FBLazyVector in Pods (explicit)
+FBReactNativeSpec in Pods (explicit)
+Folly in Pods (explicit)
+GTMAppAuth in Pods (explicit)
+GTMSessionFetcher in Pods (explicit)
+GoogleSignIn in Pods (explicit)
+OneSignalXCFramework in Pods (explicit)
+RCTRequired in Pods (explicit)
+RCTTypeSafety in Pods (explicit)
+RNAWSCognito in Pods (explicit)
+RNCAsyncStorage in Pods (explicit)
+RNCMaskedView in Pods (explicit)
+RNCPicker in Pods (explicit)
+RNGestureHandler in Pods (explicit)
+RNGoogleSignin in Pods (explicit)
+RNI18n in Pods (explicit)
+RNImageCropPicker in Pods (explicit)
+RNInAppBrowser in Pods (explicit)
+RNReanimated in Pods (explicit)
+RNSVG in Pods (explicit)
+RNScreens in Pods (explicit)
+RNVectorIcons in Pods (explicit)
+React in Pods (explicit)
+React-Core in Pods (explicit)
+React-CoreModules in Pods (explicit)
+React-RCTActionSheet in Pods (explicit)
+React-RCTAnimation in Pods (explicit)
+React-RCTBlob in Pods (explicit)
+React-RCTImage in Pods (explicit)
+React-RCTLinking in Pods (explicit)
+React-RCTNetwork in Pods (explicit)
+React-RCTSettings in Pods (explicit)
+React-RCTText in Pods (explicit)
+React-RCTVibration in Pods (explicit)
+React-cxxreact in Pods (explicit)
+React-jsi in Pods (explicit)
+React-jsiexecutor in Pods (explicit)
+React-jsinspector in Pods (explicit)
+ReactCommon in Pods (explicit)
+TOCropViewController in Pods (explicit)
+Yoga in Pods (explicit)
+boost-for-react-native in Pods (explicit)
+glog in Pods (explicit)
+react-native-cameraroll in Pods (explicit)
+react-native-contacts in Pods (explicit)
+react-native-document-picker in Pods (explicit)
+react-native-geolocation-service in Pods (explicit)
+react-native-netinfo in Pods (explicit)
+react-native-onesignal in Pods (explicit)
+react-native-pager-view in Pods (explicit)
+react-native-restart in Pods (explicit)
+react-native-safari-view in Pods (explicit)
+react-native-safe-area-context in Pods (explicit)
+react-native-segmented-control in Pods (explicit)
+react-native-sensitive-info in Pods (explicit)
+react-native-slider in Pods (explicit)
+react-native-splash-screen in Pods (explicit)
+react-native-tracking-transparency in Pods (explicit)
+react-native-webview in Pods (explicit)
+toolbar-android in Pods (explicit)
+sunriseReferrals in erinMobile, depends on:
+Pods-sunriseReferrals in Pods (implicit dependency via file 'libPods-sunriseReferrals.a' in build phase 'Link Binary')
+AppAuth in Pods (implicit dependency via options '-lAppAuth' in build setting 'OTHER_LDFLAGS')
+AzureAuth in Pods (implicit dependency via options '-lAzureAuth' in build setting 'OTHER_LDFLAGS')
+BVLinearGradient in Pods (implicit dependency via options '-lBVLinearGradient' in build setting 'OTHER_LDFLAGS')
+DoubleConversion in Pods (implicit dependency via options '-lDoubleConversion' in build setting 'OTHER_LDFLAGS')
+FBReactNativeSpec in Pods (implicit dependency via options '-lFBReactNativeSpec' in build setting 'OTHER_LDFLAGS')
+Folly in Pods (implicit dependency via options '-lFolly' in build setting 'OTHER_LDFLAGS')
+GTMAppAuth in Pods (implicit dependency via options '-lGTMAppAuth' in build setting 'OTHER_LDFLAGS')
+GTMSessionFetcher in Pods (implicit dependency via options '-lGTMSessionFetcher' in build setting 'OTHER_LDFLAGS')
+RCTTypeSafety in Pods (implicit dependency via options '-lRCTTypeSafety' in build setting 'OTHER_LDFLAGS')
+RNAWSCognito in Pods (implicit dependency via options '-lRNAWSCognito' in build setting 'OTHER_LDFLAGS')
+RNCAsyncStorage in Pods (implicit dependency via options '-lRNCAsyncStorage' in build setting 'OTHER_LDFLAGS')
+RNCMaskedView in Pods (implicit dependency via options '-lRNCMaskedView' in build setting 'OTHER_LDFLAGS')
+RNCPicker in Pods (implicit dependency via options '-lRNCPicker' in build setting 'OTHER_LDFLAGS')
+RNGestureHandler in Pods (implicit dependency via options '-lRNGestureHandler' in build setting 'OTHER_LDFLAGS')
+RNGoogleSignin in Pods (implicit dependency via options '-lRNGoogleSignin' in build setting 'OTHER_LDFLAGS')
+RNI18n in Pods (implicit dependency via options '-lRNI18n' in build setting 'OTHER_LDFLAGS')
+RNImageCropPicker in Pods (implicit dependency via options '-lRNImageCropPicker' in build setting 'OTHER_LDFLAGS')
+RNInAppBrowser in Pods (implicit dependency via options '-lRNInAppBrowser' in build setting 'OTHER_LDFLAGS')
+RNReanimated in Pods (implicit dependency via options '-lRNReanimated' in build setting 'OTHER_LDFLAGS')
+RNSVG in Pods (implicit dependency via options '-lRNSVG' in build setting 'OTHER_LDFLAGS')
+RNScreens in Pods (implicit dependency via options '-lRNScreens' in build setting 'OTHER_LDFLAGS')
+RNVectorIcons in Pods (implicit dependency via options '-lRNVectorIcons' in build setting 'OTHER_LDFLAGS')
+React-Core in Pods (implicit dependency via options '-lReact-Core' in build setting 'OTHER_LDFLAGS')
+React-CoreModules in Pods (implicit dependency via options '-lReact-CoreModules' in build setting 'OTHER_LDFLAGS')
+React-RCTAnimation in Pods (implicit dependency via options '-lReact-RCTAnimation' in build setting 'OTHER_LDFLAGS')
+React-RCTBlob in Pods (implicit dependency via options '-lReact-RCTBlob' in build setting 'OTHER_LDFLAGS')
+React-RCTImage in Pods (implicit dependency via options '-lReact-RCTImage' in build setting 'OTHER_LDFLAGS')
+React-RCTLinking in Pods (implicit dependency via options '-lReact-RCTLinking' in build setting 'OTHER_LDFLAGS')
+React-RCTNetwork in Pods (implicit dependency via options '-lReact-RCTNetwork' in build setting 'OTHER_LDFLAGS')
+React-RCTSettings in Pods (implicit dependency via options '-lReact-RCTSettings' in build setting 'OTHER_LDFLAGS')
+React-RCTText in Pods (implicit dependency via options '-lReact-RCTText' in build setting 'OTHER_LDFLAGS')
+React-RCTVibration in Pods (implicit dependency via options '-lReact-RCTVibration' in build setting 'OTHER_LDFLAGS')
+React-cxxreact in Pods (implicit dependency via options '-lReact-cxxreact' in build setting 'OTHER_LDFLAGS')
+React-jsi in Pods (implicit dependency via options '-lReact-jsi' in build setting 'OTHER_LDFLAGS')
+React-jsiexecutor in Pods (implicit dependency via options '-lReact-jsiexecutor' in build setting 'OTHER_LDFLAGS')
+React-jsinspector in Pods (implicit dependency via options '-lReact-jsinspector' in build setting 'OTHER_LDFLAGS')
+ReactCommon in Pods (implicit dependency via options '-lReactCommon' in build setting 'OTHER_LDFLAGS')
+TOCropViewController in Pods (implicit dependency via options '-lTOCropViewController' in build setting 'OTHER_LDFLAGS')
+Yoga in Pods (implicit dependency via options '-lYoga' in build setting 'OTHER_LDFLAGS')
+glog in Pods (implicit dependency via options '-lglog' in build setting 'OTHER_LDFLAGS')
+react-native-cameraroll in Pods (implicit dependency via options '-lreact-native-cameraroll' in build setting 'OTHER_LDFLAGS')
+react-native-contacts in Pods (implicit dependency via options '-lreact-native-contacts' in build setting 'OTHER_LDFLAGS')
+react-native-document-picker in Pods (implicit dependency via options '-lreact-native-document-picker' in build setting 'OTHER_LDFLAGS')
+react-native-geolocation-service in Pods (implicit dependency via options '-lreact-native-geolocation-service' in build setting 'OTHER_LDFLAGS')
+react-native-netinfo in Pods (implicit dependency via options '-lreact-native-netinfo' in build setting 'OTHER_LDFLAGS')
+react-native-onesignal in Pods (implicit dependency via options '-lreact-native-onesignal' in build setting 'OTHER_LDFLAGS')
+react-native-pager-view in Pods (implicit dependency via options '-lreact-native-pager-view' in build setting 'OTHER_LDFLAGS')
+react-native-restart in Pods (implicit dependency via options '-lreact-native-restart' in build setting 'OTHER_LDFLAGS')
+react-native-safari-view in Pods (implicit dependency via options '-lreact-native-safari-view' in build setting 'OTHER_LDFLAGS')
+react-native-safe-area-context in Pods (implicit dependency via options '-lreact-native-safe-area-context' in build setting 'OTHER_LDFLAGS')
+react-native-segmented-control in Pods (implicit dependency via options '-lreact-native-segmented-control' in build setting 'OTHER_LDFLAGS')
+react-native-sensitive-info in Pods (implicit dependency via options '-lreact-native-sensitive-info' in build setting 'OTHER_LDFLAGS')
+react-native-slider in Pods (implicit dependency via options '-lreact-native-slider' in build setting 'OTHER_LDFLAGS')
+react-native-splash-screen in Pods (implicit dependency via options '-lreact-native-splash-screen' in build setting 'OTHER_LDFLAGS')
+react-native-tracking-transparency in Pods (implicit dependency via options '-lreact-native-tracking-transparency' in build setting 'OTHER_LDFLAGS')
+react-native-webview in Pods (implicit dependency via options '-lreact-native-webview' in build setting 'OTHER_LDFLAGS')
+toolbar-android in Pods (implicit dependency via options '-ltoolbar-android' in build setting 'OTHER_LDFLAGS')

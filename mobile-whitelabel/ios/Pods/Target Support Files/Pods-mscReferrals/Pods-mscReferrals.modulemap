@@ -1,0 +1,6 @@
+module Pods_mscReferrals {
+  umbrella header "Pods-mscReferrals-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+module Pods_sevitaHealthReferrals {
+  umbrella header "Pods-sevitaHealthReferrals-umbrella.h"
+
+  export *
+  module * { export * }
+}
