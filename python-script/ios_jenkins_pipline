@@ -1,0 +1,51 @@
+pipeline {
+       agent any
+            parameters {
+                        extendedChoice(
+                                        name: 'Client',
+                                        description: 'Select the Client',
+                                        type: 'PT_CHECKBOX',
+                                        visibleItemCount: 100,
+                                        multiSelectDelimiter: '\n',
+                                        propertyFile: '/Users/rajendrakumar/build.properties',
+                                        propertyKey: 'Client',
+                                        quoteValue: false,
+                                        saveJSONParameterToFile: false,
+                                      )
+                      }
+         
+     
+        stages {
+ 
+            stage ('Client') {
+                            steps {
+                                script {
+                                    sh '''
+                                    echo $PWD
+                                    ls -ll
+                                    '''
+                                    }
+                                    
+                            }
+            }
+            
+            
+            stage('Dumping Assets from s3 bucket') {
+                steps {
+                    script {
+                        def clientList = params.Client.split(',')
+
+                        for (def client in clientList) {
+                            echo "Client: ${client}"
+                            sh """
+                                cd /Users/rajendrakumar/.jenkins
+                                PROJ_PATH=/Users/rajendrakumar/.jenkins/workspace/ERIN_CODE/mobile-whitelabel/ios/erinMobile.xcodeproj NEW_TARGET_NAME=${client} BUNDLE_ID=com.${client}.app SRC_NAME=pinterestReferrals ruby new_target_env.rb
+                            """
+                        }
+                    }
+                }
+            }
+            
+            
+        }
+    }

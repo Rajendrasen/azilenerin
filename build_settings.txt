@@ -1,0 +1,6 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project /Users/rajendrakumar/ERIN-IOS/mobile-whitelabel/ios/erinMobile.xcodeproj -scheme Azilen_erin_dd -configuration Debug -showBuildSettings
+
+User defaults from command line:
+    IDEPackageSupportUseBuiltinSCM = YES
+
