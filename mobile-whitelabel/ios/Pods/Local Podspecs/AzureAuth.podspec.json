@@ -1,6 +1,6 @@
 {
   "name": "AzureAuth",
-  "version": "1.8.7",
+  "version": "1.8.8",
   "summary": "An React Native module implements Azure AD V2.0 authentication flow",
   "homepage": "https://github.com/vmurin/react-native-azure-auth",
   "license": {
@@ -15,7 +15,7 @@
   },
   "source": {
     "git": "https://github.com/vmurin/react-native-azure-auth.git",
-    "tag": "v1.8.7"
+    "tag": "v1.8.8"
   },
   "source_files": "ios/**/*.{h,m}",
   "requires_arc": true,

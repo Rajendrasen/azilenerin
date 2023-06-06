@@ -5,7 +5,7 @@ PODS:
   - AppAuth/Core (1.6.2)
   - AppAuth/ExternalUserAgent (1.6.2):
     - AppAuth/Core
-  - AzureAuth (1.8.7):
+  - AzureAuth (1.8.8):
     - React
   - boost-for-react-native (1.63.0)
   - BVLinearGradient (2.6.2):
@@ -532,7 +532,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AppAuth: 3bb1d1cd9340bd09f5ed189fb00b1cc28e1e8570
-  AzureAuth: 615c466c761c11f1b10339839c07cc4bebfab6bc
+  AzureAuth: 8a16f087eed7da3ccd89f2c52093127086f659e8
   boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
   BVLinearGradient: 34a999fda29036898a09c6a6b728b0b4189e1a44
   DoubleConversion: 5805e889d232975c086db112ece9ed034df7a0b2
